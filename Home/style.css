@@ -18,7 +18,9 @@
     justify-content: space-between;
     padding: 0 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
-    position: relative;
+    position: sticky;
+    z-index: 100;
+    top: 0;
 }
 
 .navbar h1 .sr {
@@ -35,10 +37,6 @@
     font-size: 1.2rem;
     padding: 0 1rem;
     color: black;
-}
-
-.navbar #active {
-    color: #ED5724;
 }
 
 .navbar .menu {
@@ -81,6 +79,10 @@
     transform: rotate(-45deg);
 }
 
+.navbar-mobile {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .navbar .menu {
         opacity: 1;
@@ -88,6 +90,38 @@
     }
     .navbar .navbar-link-block {
         display: none;
+    }
+    .navbar-mobile {
+        width: 100%;
+        height: 0;
+        background-color: white;
+        position: sticky;
+        transition: 0.5s ease-in-out;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+        top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .navbar-mobile ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .navbar-mobile-active {
+        height: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    .navbar-mobile a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        color: black;
     }
 }
 
@@ -99,7 +133,7 @@
 
 .welcome-container {
     width: 100%;
-    height: 60vh;
+    height: 500vh;
     background-color: red;
 }
 
