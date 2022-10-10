@@ -222,7 +222,7 @@
 }
 
 .card:hover {
-    box-shadow: 0 0 20px #ED5724, 0 0 40px #ED5724;
+    box-shadow: 0 0 20px #ED5724;
     scale: 1.05;
 }
 
