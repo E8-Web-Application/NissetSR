@@ -19,7 +19,7 @@
     padding: 0 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
     position: sticky;
-    z-index: 100;
+    z-index: 200;
     top: 0;
 }
 
@@ -104,6 +104,7 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
+        z-index: 100;
     }
     .navbar-mobile ul {
         width: 100%;
