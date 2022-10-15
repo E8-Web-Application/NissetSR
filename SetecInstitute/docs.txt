@@ -1,0 +1,28 @@
+<div class="images-detail">
+				<div class="grid" id="image-script">
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img1.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img2.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img3.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img4.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img5.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img6.jpg" class="image-detail" alt="">
+          </div>
+					<div class="box box-1">
+            <img src="../AsiaEuroUniversity/images/img.jpg" class="image-detail" alt="">
+          </div>
+	
+				</div>
