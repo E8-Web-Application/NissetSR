@@ -5,3 +5,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.banner{
+    width: 100%;
+    height: 100px;
+    
+}
