@@ -23,20 +23,12 @@ const image = [
     id:6,
     imageUrl: '../AsiaEuroUniversity/images/img5.jpg'
   },
-  {
-    id:7,
-    imageUrl: '../AsiaEuroUniversity/images/img6.jpg'
-  },
-  {
-    id:8,
-    imageUrl: '../AsiaEuroUniversity/images/img1.jpg'
-  },
 ];
 
 const imageScript = document.getElementById('image-script');
 var txt = [];
 for (i = 0; i < image.length; i++) {
-    txt += `<div class="box box-1">
+    txt += `<div class="box ${image[i].id}">
               <img src="${image[i].imageUrl}" class="image-detail" alt="">
             </div>`;
 }

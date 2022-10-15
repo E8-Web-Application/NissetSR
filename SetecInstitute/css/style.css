@@ -9,6 +9,7 @@
 :root {
   --color-primary: #ED5724;
   --font-family-primary: Preahvihear,sans-serif; 
+  --font-family-secondary: Kantumruy, sans-serif;
   --shadow-color: #ed562450;
 }
 
@@ -29,7 +30,7 @@
 }
 .banner {
   width: 100%;
-  height: 500px;
+  height: 600px;
   border: 2px solid var(--color-primary);
   display: flex;
   justify-content: center;
@@ -53,7 +54,7 @@
 }
 .grid {
   display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
 }
 
@@ -61,9 +62,27 @@
   height: 260px;
  border: 2px solid var(--color-primary);
  box-shadow: rgba(var(--color-primary)) 0px 7px 29px 0px;
+ overflow: hidden;
 }
-
 .image-detail {
   width: 100%;
   height: 100%;
+}
+.image-detail:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.1);
+  transition: all .4s;
+}
+.contain-paragraph {
+  width: 100%;
+  margin: 28px 0;
+}
+.top-paragraph {
+  font-family: var(--font-family-secondary);
+  font-size: 1rem;
+}
+
+.dep{
+  font-family: var(--font-family-secondary);
+  color: var(--color-primary);
 }
