@@ -11,6 +11,7 @@
   --font-family-primary: Preahvihear,sans-serif; 
   --font-family-secondary: Kantumruy, sans-serif;
   --shadow-color: #ed562450;
+  --bg: #ed562425;
 }
 
 .container{
@@ -83,6 +84,30 @@
 }
 
 .dep{
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-family-primary);
   color: var(--color-primary);
+}
+
+.department-list {
+  width: 90%;
+  height: 500px;
+  background-color: var(--bg);
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.head-department-list {
+  font-family: var(--font-family-primary);
+  color: var(--color-primary);
+}
+
+.content-list {
+  width: 100%;
+}
+
+.un-list {
+  padding-left: 30px;
+  color: black;
+  font-weight: 300;
 }
