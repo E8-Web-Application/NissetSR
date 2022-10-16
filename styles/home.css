@@ -270,6 +270,12 @@
     margin-top: 50px;
 }
 
+@media (max-width:500px) {
+    .university-container h1 {
+        font-size: 18px;
+    }
+}
+
 
 /* card end */
 
