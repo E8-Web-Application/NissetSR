@@ -13,15 +13,148 @@
   --shadow-color: #ed562450;
   --bg: #ed562425;
 }
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
 
+/* Navbar style start */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
+  position: sticky;
+  z-index: 200;
+  top: 0;
+}
+
+.sr {
+  color: #ED5724;
+}
+
+.navbar .navbar-link-block {
+  display: flex;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  color: black;
+  font-weight: 700;
+}
+
+.navbar .menu {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 50px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 1s ease-in-out;
+}
+
+.menu .line {
+  width: 80%;
+  height: 5px;
+  background-color: #ED5724;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-active {
+  transform: rotate(360deg);
+}
+
+.line2-active {
+  opacity: 0;
+}
+
+.line1-active {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.line3-active {
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar .menu {
+      opacity: 1;
+      pointer-events: all;
+  }
+  .navbar .navbar-link-block {
+      display: none;
+  }
+  .navbar-mobile {
+      width: 100%;
+      height: 0;
+      background-color: white;
+      position: sticky;
+      transition: 0.5s ease-in-out;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.438);
+      top: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      z-index: 100;
+  }
+  .navbar-mobile ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      text-align: center;
+      justify-content: space-evenly;
+  }
+  .navbar-mobile-active {
+      height: 300px;
+      transition: 0.5s ease-in-out;
+  }
+  .navbar-mobile a {
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 0 1rem;
+      color: black;
+      font-weight: 700;
+  }
+}
+
+
+/* Navbar style end */
+
+/* content */
 .container{
-  height: 100vh;
-  width: 95% ;
+  height: 100%;
+  width: 100% ;
+  padding: 0 50px;
   margin: auto;
 }
 .detail-titles  {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .khmer-title {
   color: #ED5724;
@@ -86,18 +219,19 @@
 .dep{
   font-family: var(--font-family-primary);
   color: var(--color-primary);
+  margin-top: 20px;
 }
 
-.department-list {
+.bachelors-list{
   width: 90%;
-  height: 500px;
+  height: auto;
   background-color: var(--bg);
   margin: auto;
   margin-top: 20px;
   padding: 10px;
 }
 
-.head-department-list {
+.head-bachelors-list {
   font-family: var(--font-family-primary);
   color: var(--color-primary);
 }
@@ -111,3 +245,69 @@
   color: black;
   font-weight: 300;
 }
+
+.master-list ,.information-list {
+  width: 90%;
+  height: auto;
+  background-color: var(--bg);
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.button-back {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  background-color:var(--color-primary);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+/* end content */
+
+/* Footer Start */
+
+.footer-container {
+  width: 100%;
+  height: 400px;
+  background-color: #2B383B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.footer-container p {
+  color: white;
+}
+
+.footer-container .with {
+  color: #ED5724;
+}
+
+.footer-container .social-block {
+  display: flex;
+  gap: 10px;
+}
+
+.social-block .social-image {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+/* Footer End */
