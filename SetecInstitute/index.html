@@ -8,10 +8,52 @@
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
+		 <!-- navbar start -->
+		 <nav class="navbar">
+			<h1>Nisset <span class="sr">S.R</span></h1>
+			<ul class="navbar-link-block">
+					<li>
+							<a style="color:#ED5724" href="#">Home</a>
+					</li>
+					<li>
+							<a href="#">University</a>
+					</li>
+					<li>
+							<a href="#">About Us</a>
+					</li>
+			</ul>
+			<div class="menu">
+					<div class="line line1"></div>
+					<div class="line line2"></div>
+					<div class="line line3"></div>
+			</div>
+
+	</nav>
+	<div class="navbar-mobile">
+			<ul class="navbar-block-link-block">
+					<li>
+							<a style="color:#ED5724" href="#">Home</a>
+					</li>
+					<li>
+							<a href="#">University</a>
+					</li>
+					<li>
+							<a href="#">About Us</a>
+					</li>
+			</ul>
+	</div>
+	<!-- navbar end -->
+
+	<!-- content -->
 		<div class="container">
 			<div class="detail-titles">
-				<h1 class="khmer-title">​វិទ្យាស្ថាន​ស៊ី​តិក</h1>
+				<div class="">
+					<h1 class="khmer-title">​វិទ្យាស្ថាន​ស៊ី​តិក</h1>
 				<div class="englist-title">SETEC INSTITUTE</div>
+				</div>
+				<div class="">
+					<a href="../../index.html" class="button-back">Back</a>
+				</div>
 			</div>
 
 			<div class="banner">
@@ -22,21 +64,59 @@
 				/>
 			</div>
 			<p class="setec-mid-title">រូបភាពសាកល៖</p>
-
+			<!-- image-detail -->
 			<div class="images-detail">
 				<div class="grid" id="image-script"></div>
 			</div>
-
+			<!-- detail -->
 			<div class="contain-paragraph">
 				<p class="top-paragraph">
-					សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ ឬ RUPP ជាសាកលវិទ្យាល័យមួយដែលមានអាយុកាលចំណាស់នៅក្នុងប្រទេស កម្ពុជា។ សាកលវិទ្យាល័យមានមុខជំនាញអោយនិស្សិតជ្រើសរើសជាច្រើនក្នុងចំណោម៥មហាវិទ្យាល័យ និង១ វិទ្យាស្ថាន ដែលក្នុងនោះរួមមាន៖
+					សាកលវិទ្យាល័យភូមិន្ទភ្នំពេញ ឬ RUPP
+					ជាសាកលវិទ្យាល័យមួយដែលមានអាយុកាលចំណាស់នៅក្នុងប្រទេស កម្ពុជា។
+					សាកលវិទ្យាល័យមានមុខជំនាញអោយនិស្សិតជ្រើសរើសជាច្រើនក្នុងចំណោម៥មហាវិទ្យាល័យ
+					និង១ វិទ្យាស្ថាន ដែលក្នុងនោះរួមមាន៖
 				</p>
 				<h3 class="dep">សម្រាប់ថ្នាក់បរិញ្ញាបត្ររួមមាន៖</h3>
-				<div class="department-list" id="department-list"></div>
+				<div class="bachelors-list">
+					<ul class="un-list" id="bachelors-list"></ul>
+				</div>
+				<h3 class="dep">សម្រាប់ថ្នាក់អនុបណ្ឌិតរួមមាន៖</h3>
+				<div class="master-list">
+					<ul class="un-list" id="master-list"></ul>
+				</div>
+				<h3 class="dep">សម្រាប់ព័ត៌មានលម្អិត៖</h3>
+				<div class="information-list">
+					<ul class="un-list" id="information-list"></ul>
+				</div>
 			</div>
+			<!-- end detail -->
+		</div>
+		<!-- end content -->
+
+		<div class="footer-container">
+			<p>Connect <span class="with">With</span> Us</p>
+			<div class="social-block">
+				<div class="social-image">
+					<img width="40" src="../../Images/facebook.png" alt="" />
+				</div>
+				<div class="social-image">
+					<img width="40" src="../../Images/instagram.png" alt="" />
+				</div>
+				<div class="social-image">
+					<img width="40" src="../../Images/twitter-sign.png" alt="" />
+				</div>
+				<div class="social-image">
+					<img width="40" src="../../Images/linkedin.png" alt="" />
+				</div>
+				<div class="social-image">
+					<img width="40" src="../../Images/github-sign.png" alt="" />
+				</div>
+			</div>
+			<p>Nisset <span class="sr">S.R</span> © 2022 All Rights Reserved.</p>
 		</div>
 
+		<script src="./js/app.js"></script>
 		<script src="./js/image.js"></script>
-		<script src="./js/department.js"></script>
+		<script src="./js/data.js"></script>
 	</body>
 </html>
