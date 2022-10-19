@@ -23,3 +23,13 @@ window.addEventListener("resize", () => {
     menu.classList.remove("menu-active");
     navbarMobile.classList.remove("navbar-mobile-active");
 })
+
+window.addEventListener("scroll",()=>{
+    setTimeout(() => {
+        line1.classList.remove("line1-active");
+        line2.classList.remove("line2-active");
+        line3.classList.remove("line3-active");
+    }, 500)
+    menu.classList.remove("menu-active");
+    navbarMobile.classList.remove("navbar-mobile-active");
+})
