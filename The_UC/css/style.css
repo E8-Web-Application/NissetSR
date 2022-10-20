@@ -249,6 +249,15 @@ body {
     padding: 10px;
 }
 
+.scholarship {
+    width: 90%;
+    height: auto;
+    background-color: var(--bg);
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 .head-bachelors-list {
     font-family: var(--font-family-primary);
     color: var(--color-primary);

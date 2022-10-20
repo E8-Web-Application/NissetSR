@@ -1,11 +1,27 @@
 const bachelors = [
   {
     id: 1,
-    text: 'Management Information System',
+    text: 'College of Arts and Humanities (CoAH)',
   },
   {
     id: 2,
-    text: 'Design',
+    text: 'College of Education (CoE)',
+  },
+  {
+    id: 3,
+    text: 'College of Law (CoL)',
+  },
+  {
+    id: 4,
+    text: 'College of Media and Communications (CMC)',
+  },
+  {
+    id: 5,
+    text: 'College of Science and Technology (CoST)',
+  },
+  {
+    id: 6,
+    text: 'College of Social Sciences (CoSS)',
   },
 ];
 
@@ -19,11 +35,27 @@ bachelorstList.innerHTML = `${bachelors?.map((bachelors) => {
 const master = [
   {
     id: 1,
-    text: 'Information Technology',
+    text: 'School of Creative Arts (SCA)',
   },
   {
     id: 2,
-    text: 'Design',
+    text: 'School of Foreign Languages (SFL)',
+  },
+  {
+    id: 3,
+    text: 'Techo Sen School of Government and International Relations (TSS)',
+  },
+  {
+    id: 4,
+    text: 'The Tony Fernandes School of Business (formerly the College of Management)',
+  },
+  {
+    id: 5,
+    text: 'The School of Undergraduate Studies (SUS)',
+  },
+  {
+    id: 6,
+    text: 'The School of Graduate Studies (SGS)',
   },
 ];
 
@@ -36,19 +68,19 @@ msterList.innerHTML = `${master?.map((master) => {
 const information = [
   {
     id: 1,
-    text: 'RUPP Official Web: http://www.rupp.edu.kh/',
+    text: 'UC Official Web: https://uc.edu.kh/#',
   },
   {
     id: 2,
-    text: 'RUPP Official Email: iroffice(at)rupp.edu.kh',
+    text: 'UC Official Email: info@uc.edu.kh; admissions@uc.edu.kh',
   },
   {
     id: 3,
-    text: 'Tell: 855-23-883-640 RUPP Official',
+    text: 'Tell: (855-23) 993-274; 993-276',
   },
   {
     id: 4,
-    text: 'FB page: RUPP – Royal University of Phnom Penh',
+    text: 'FB page: The University of Cambodia',
   },
 ];
 
