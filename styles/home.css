@@ -86,6 +86,23 @@
     overflow: hidden;
     transition: 0.5s;
     cursor: pointer;
+    position: relative;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ed562428;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover::before {
+    height: 100%;
+    color: white
 }
 
 .card:hover {
@@ -99,6 +116,7 @@
     overflow: hidden;
     margin: 0 auto;
     margin-top: 10px;
+    isolation: isolate;
 }
 
 .image-container img {
@@ -125,10 +143,6 @@
     left: 0;
     z-index: 0;
     transition: 0.5s;
-}
-
-.card:hover .text-container::before {
-    height: 100%;
 }
 
 .text-container button {
