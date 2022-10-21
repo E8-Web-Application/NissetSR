@@ -7,10 +7,12 @@
 .school-image {
     width: 100%;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .school-image img {
-    width: 100%;
+    width: auto;
 }
 
 .university-container {
