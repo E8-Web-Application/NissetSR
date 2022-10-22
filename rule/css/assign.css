@@ -1,0 +1,148 @@
+
+*{
+    --font-family-primary: Preahvihear,sans-serif; 
+    --font-family-secondary: Kantumruy, sans-serif;
+    font-size: 18px;
+}
+
+/* button */
+#toop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border: 2px goldenrod solid;
+    border-radius: 5px;
+    background-color: wheat;
+}
+#toop:hover{
+    background-color: rgb(236, 251, 150);
+    transition: 0.75s;
+}
+
+.descript{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* title */
+.descript #Nkh{
+    color: orangered;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.descript #Nen{
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+#labelPic{
+    width: 100%;
+}
+
+.pics, td{
+    border: orangered 2px solid;
+    border-collapse: collapse;
+}
+/* .pics img{ */
+.descript .pics img{
+    width: 100%;
+    display: block;
+    /* vertical-align: bottom; same */
+}
+
+body > .allClass{
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.colored_subtilte{
+    color: orangered;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.subtitle_container{
+    background-color: #FEEFEA;
+    border-radius: 20px;
+    padding: 20px;
+}
+.subtitle_text_container{
+    margin-left: 20px;
+}
+
+.colored{
+    color: orangered;
+}
+.info > li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.info li a{
+    text-decoration: none;
+}
+.info li a:hover{
+    font-weight: bold;
+    color: #b13200;
+}
+
+footer{
+    font-size: 19px;
+    width: 100%;
+    height: 200px;
+    background-color: #203033;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+footer p #conn{
+    font-weight: bold;
+    color: #ffffff;
+}
+footer p .us{
+    font-weight: bold;
+    color: orangered;
+}
+
+.conn_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.logo{
+    display: inline;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .logo:hover{
+    width: 40px;
+    height: 40px;
+} */
+.logo > img{
+    width: 27px;
+    height: 27px;
+}
+/* .logo > img:hover{
+    width: 37px;
+    height: 37px;
+} */
+
