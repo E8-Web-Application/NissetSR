@@ -5,23 +5,23 @@ const image = [
   },
   {
     id: 2,
-    imageUrl: './image/img1.jpg',
+    imageUrl: './image/s2.jpeg',
   },
   {
     id: 3,
-    imageUrl: './image/img2.jpg'
+    imageUrl: './image/s3.jpeg'
   },
   {
     id: 4,
-    imageUrl: './image/img3.jpg'
+    imageUrl: './image/s4.jpeg'
   },
   {
     id: 5,
-    imageUrl: './image/img4.jpg'
+    imageUrl: './image/s5.jpeg'
   },
   {
     id: 6,
-    imageUrl: './image/img5.jpg'
+    imageUrl: './image/s6.jpeg'
   },
 ];
 
