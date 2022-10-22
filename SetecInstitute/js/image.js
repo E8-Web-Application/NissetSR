@@ -30,7 +30,7 @@ imageScript.innerHTML = `
                           ${image?.map((image) => {
   return `<div class="box ${image?.id}">
                                       <img src="${image?.imageUrl}" class="image-detail" alt="">
-                                    </div>`;
-}).join(" ")};
+                                    </div>`
+}).join(" ")}
                         `;
 

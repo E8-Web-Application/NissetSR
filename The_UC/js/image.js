@@ -31,6 +31,6 @@ imageScript.innerHTML = `
   return `<div class="box ${image?.id}">
                                       <img src="${image?.imageUrl}" class="image-detail" alt="">
                                     </div>`;
-}).join(" ")};
+}).join(" ")}
                         `;
 
