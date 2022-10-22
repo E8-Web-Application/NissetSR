@@ -26,11 +26,9 @@ const image = [
 ];
 
 const imageScript = document.getElementById('image-script');
-imageScript.innerHTML = `
-                          ${image?.map((image) => {
-  return `<div class="box ${image?.id}">
-                                      <img src="${image?.imageUrl}" class="image-detail" alt="">
-                                    </div>`;
-}).join(" ")};
-                        `;
+imageScript.innerHTML = `${image?.map((image) => {
+    return `<div class="box ${image?.id}">
+              <img src="${image?.imageUrl}" class="image-detail" alt="">
+            </div>`
+  }).join(" ")}`;
 
