@@ -174,8 +174,7 @@ body {
 
 .banner {
   width: 100%;
-  height: 700px;
-  /* border: 2px solid var(--color-primary); */
+  height: 570px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,6 +185,7 @@ body {
   height: 100%;
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  object-fit: cover;
 }
 
 .setec-mid-title {
@@ -193,6 +193,7 @@ body {
   color: var(--color-primary);
   margin: 30px 0;
   text-align: center;
+  font-size: 25px;
 }
 
 .images-detail {
@@ -211,12 +212,18 @@ body {
 
 .box {
   height: 260px;
+<<<<<<< HEAD
   /* border: 2px solid #9ba1a2; */
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   /* box-shadow: rgba(var(--color-primary)) 0px 7px 29px 0px; */
   overflow: hidden;
   border-radius: 5px;
+=======
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ overflow: hidden;
+ border-radius: 5px;
+>>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
 }
 
 .image-detail {
@@ -246,13 +253,19 @@ body {
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 .bachelors-list {
   width: 90%;
+=======
+.bachelors-list{
+  width: 95%;
+>>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
   height: auto;
   background-color: var(--bg);
   margin: auto;
   margin-top: 20px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .head-bachelors-list {
@@ -270,28 +283,36 @@ body {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 .master-list,
 .information-list {
   width: 90%;
+=======
+.master-list ,.information-list {
+  width: 95%;
+>>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
   height: auto;
   background-color: var(--bg);
   margin: auto;
   margin-top: 20px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .button-back {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 8px 18px;
   margin-top: 10px;
   background: none;
   border: none;
   background-color: var(--color-primary);
   color: white;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   transition: 0.3s;
   cursor: pointer;
+}
+.button-back:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 /* end content */

@@ -36,19 +36,19 @@ msterList.innerHTML = `${master?.map((master) => {
 const information = [
   {
     id: 1,
-    text: 'RUPP Official Web: http://www.rupp.edu.kh/',
+    text: 'Address :No. 86A, Street 110, Russian Federation Boulevard, Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia',
   },
   {
     id: 2,
-    text: 'RUPP Official Email: iroffice(at)rupp.edu.kh',
+    text: 'Email: info@setecu.com',
   },
   {
     id: 3,
-    text: 'Tell: 855-23-883-640 RUPP Official',
+    text: 'Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514',
   },
   {
     id: 4,
-    text: 'FB page: RUPP – Royal University of Phnom Penh',
+    text: 'E-mail:     info@setecu.com',
   },
 ];
 
@@ -56,3 +56,9 @@ const informationList = document.getElementById('information-list');
 informationList.innerHTML = `${information?.map((information) => {
   return ` <li>${information.text}</li>`;
 }).join(" ")}`;
+
+// Address :No. 86A, Street 110, Russian Federation Boulevard,
+// Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia
+// Tel / Fax:     023 880612
+// Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514
+// E-mail:     info@setecu.com
