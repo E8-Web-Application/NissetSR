@@ -207,23 +207,13 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-
 }
 
 .box {
   height: 260px;
-<<<<<<< HEAD
-  /* border: 2px solid #9ba1a2; */
-  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  /* box-shadow: rgba(var(--color-primary)) 0px 7px 29px 0px; */
   overflow: hidden;
   border-radius: 5px;
-=======
- box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
- overflow: hidden;
- border-radius: 5px;
->>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
 }
 
 .image-detail {
@@ -252,14 +242,8 @@ body {
   color: var(--color-primary);
   margin-top: 20px;
 }
-
-<<<<<<< HEAD
-.bachelors-list {
-  width: 90%;
-=======
 .bachelors-list{
   width: 95%;
->>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
   height: auto;
   background-color: var(--bg);
   margin: auto;
@@ -283,14 +267,9 @@ body {
   font-weight: 300;
 }
 
-<<<<<<< HEAD
 .master-list,
 .information-list {
-  width: 90%;
-=======
-.master-list ,.information-list {
   width: 95%;
->>>>>>> 86e4e721c12d0240f6932f4f3c00d4adc8721df2
   height: auto;
   background-color: var(--bg);
   margin: auto;
