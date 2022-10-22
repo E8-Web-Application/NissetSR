@@ -1,7 +1,7 @@
 const image = [
   {
     id: 1,
-    imageUrl: './image/img.jpg'
+    imageUrl: './image/se1.jpeg'
   },
   {
     id: 2,
@@ -26,19 +26,10 @@ const image = [
 ];
 
 const imageScript = document.getElementById('image-script');
-<<<<<<< HEAD
 imageScript.innerHTML = `
-                          ${image?.map((image) => {
-  return `<div class="box ${image?.id}">
-                                      <img src="${image?.imageUrl}" class="image-detail" alt="">
-                                    </div>`
-}).join(" ")}
-                        `;
-=======
-imageScript.innerHTML = `${image?.map((image) => {
-    return `<div class="box ${image?.id}">
-              <img src="${image?.imageUrl}" class="image-detail" alt="">
-            </div>`
-  }).join(" ")}`;
->>>>>>> 78043a3154d27833d70293f3dd3a2a000a7d465c
+                      ${image?.map((image) => {
+                        return `<div class="box ${image?.id}">
+                                  <img src="${image?.imageUrl}" class="image-detail" alt="">
+                                </div>`
+                      }).join(" ")}`;
 
