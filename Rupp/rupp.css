@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kantumruy:wght@300;400;700&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
+:root {
+    --color-orange: #ED5724;
+    --color-orange-blur: #ed562442;
+    --font-family-preahvihear: Preahvihear, sans-serif;
+    --font-family-kantumruy: Kantumruy, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container .title h3 {
+    font-family: var(--font-family-preahvihear);
+    color: var(--color-orange);
+}
+
+.container .title {
+    position: relative;
+}
+
+.container .title .back-btn {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    width: 80px;
+    height: 30px;
+    border: none;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    background-color: var(--color-orange);
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn:active {
+    scale: 0.95;
+}
+
+.school-image-cover {
+    max-width: 1000px;
+    height: 500px;
+    background-color: red;
+    margin: 10px auto;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.school-image-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-title {
+    width: 100%;
+    text-align: center;
+}
+
+.image-title h4 {
+    font-family: var(--font-family-preahvihear);
+    color: var(--color-orange);
+}
+
+.image-container {
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, auto);
+    place-items: center;
+}
+
+.school-image {
+    width: 400px;
+    height: 400px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.school-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1300px) {
+    .school-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:1000px) {
+    .image-container {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media (max-width:700px) {
+    .image-container {
+        grid-template-columns: repeat(1, auto);
+    }
+    .school-image {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width:500px) {
+    .school-image {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* School description start */
+
+.school-description {
+    padding: 20px;
+}
+
+.school-description p {
+    font-family: var(--font-family-kantumruy);
+}
+
+.school-description>h4 {
+    font-family: var(--font-family-preahvihear);
+    color: var(--color-orange);
+    margin-top: 100px;
+}
+
+.school-description ul {
+    margin-top: 20px;
+    background-color: var(--color-orange-blur);
+    list-style: inside;
+    padding: 10px;
+}
+
+.school-description ul>h4 {
+    font-family: var(--font-family-preahvihear);
+    color: var(--color-orange);
+}
+
+.school-description li {
+    font-family: var(--font-family-kantumruy);
+}
+
+.school-description .info {
+    margin-bottom: 100px;
+}
+
+
+/* School description end */
