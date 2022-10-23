@@ -1,7 +1,14 @@
 
-*{
+:root {
+    --color-primary: #ED5724;
     --font-family-primary: Preahvihear,sans-serif; 
     --font-family-secondary: Kantumruy, sans-serif;
+    --shadow-color: #ed562450;
+    --bg: #ed562425;
+}
+
+*{
+    font-family: var(--font-family-secondary);
     font-size: 18px;
 }
 
@@ -36,6 +43,7 @@
     color: orangered;
     font-size: 22px;
     font-weight: bold;
+    font-family: var(--font-family-primary);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -45,17 +53,20 @@
 }
 
 #labelPic{
-    width: 100%;
-    
+    width: 100%;    
 }
 
-.pics, td{
+#pics{
+    border-spacing: 30px;
+}
+td{
     border: orangered 2px solid;
-    border-collapse: collapse;
 }
 /* .pics img{ */
-.descript .pics img{
+.descript #pics img{
     width: 100%;
+    height: 100%;
+    /* margin: 20px; */
     display: block;
     /* vertical-align: bottom; same */
 }
@@ -67,9 +78,8 @@ body > .allClass{
 }
 .colored_subtilte{
     color: orangered;
-    font-size: 20px;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 0px;
     margin-left: 30px;
 }
@@ -80,6 +90,17 @@ body > .allClass{
 }
 .subtitle_text_container{
     margin-left: 20px;
+}
+#KH{
+    font-family: var(--font-family-primary);
+    font-size: 18px;
+    margin-top: 5px;
+}
+#Kh{
+    font-family: var(--font-family-secondary);
+}
+.detail{
+    margin-left: 30px;
 }
 
 .colored{
@@ -96,54 +117,3 @@ body > .allClass{
     font-weight: bold;
     color: #b13200;
 }
-
-footer{
-    font-size: 19px;
-    width: 100%;
-    height: 200px;
-    background-color: #203033;
-    text-align: center;
-    padding-top: 40px;
-    color: #ffffff;
-}
-
-footer p #conn{
-    font-weight: bold;
-    color: #ffffff;
-}
-footer p .us{
-    font-weight: bold;
-    color: orangered;
-}
-
-.conn_logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.logo{
-    display: inline;
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ffffff;
-    border-radius: 7px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* .logo:hover{
-    width: 40px;
-    height: 40px;
-} */
-.logo > img{
-    width: 27px;
-    height: 27px;
-}
-/* .logo > img:hover{
-    width: 37px;
-    height: 37px;
-} */
-
