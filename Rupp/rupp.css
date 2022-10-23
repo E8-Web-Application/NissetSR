@@ -38,8 +38,8 @@
 }
 
 .school-image-cover {
-    max-width: 1000px;
-    height: 500px;
+    max-width: 1400px;
+    height: 600px;
     background-color: red;
     margin: 10px auto;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -76,6 +76,8 @@
     width: 400px;
     height: 400px;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .school-image img {
@@ -89,6 +91,9 @@
         width: 300px;
         height: 300px;
     }
+    .school-image-cover {
+        height: 500px;
+    }
 }
 
 @media (max-width:1000px) {
@@ -97,6 +102,9 @@
     }
     .container .title .back-btn {
         right: 10px;
+    }
+    .school-image-cover {
+        height: 400px;
     }
 }
 
@@ -108,11 +116,17 @@
         width: 400px;
         height: 400px;
     }
+    .school-image-cover {
+        height: 400px;
+    }
 }
 
 @media (max-width:500px) {
     .school-image {
         width: 300px;
+        height: 300px;
+    }
+    .school-image-cover {
         height: 300px;
     }
 }
