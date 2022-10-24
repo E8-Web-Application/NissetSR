@@ -18,37 +18,131 @@ bachelorstList.innerHTML = `${bachelors?.map((bachelors) => {
 // master detail
 const master = [
   {
-    id: 1,
-    text: 'Information Technology',
+  id:1,
+    parent: 'Preparing Financial Statement',
+    text: [
+      {
+        id:1,
+        list:'US GAAP',
+      },
+      {
+        id: 2,
+        list:'IFRS',
+      }
+    ],
   },
-  {
-    id: 2,
-    text: 'Design',
-  },
-];
+   {  
+    id:2,
+      parent: 'External Auditing',
+      text: [
+        {
+          id:1,
+          list:'Auditing Concepts',
+        },
+        {
+          id: 2,
+          list:'IFRS',
+        },
+        {
+          id: 3,
+          list:'Auditing Planning',
+        },
+        {
+          id: 4,
+          list:'Internal Control System',
+        },
+        {
+          id: 5,
+          list:'Substantive Tests: TOT',
+        },
+        {
+          id: 6,
+          list:'Substantive Tests: TOB',
+        },
+        {
+          id: 7,
+          list:'Analytical Procedures',
+        },
+        {
+          id: 8,
+          list:'Sampling Methods',
+        },
+        {
+          id: 9,
+          list:'Audit Reports',
+        },
+        {
+          id: 10,
+          list:'International Auditing and Assurance Standards',
+        },
+      ],
+    },
+    {  
+      id:3,
+        parent: 'Internal Auditing',
+        text: [
+          {
+            id:1,
+            list:'Government Auditing and its standards',
+          },
+          {
+            id: 2,
+            list:'Government Tax Auditing &Taxation Law',
+          },
+          {
+            id: 3,
+            list:'Audit Practices',
+          },
+          {
+            id: 4,
+            list:'Audit Practices',
+          },
+          {
+            id: 5,
+            list:'Economic',
+          },
+          {
+            id: 6,
+            list:'Finance',
+         },
+        ],
+      } 
+   ]
 
 const msterList = document.getElementById('master-list');
+
 msterList.innerHTML = `${master?.map((master) => {
-  return ` <li>${master.text}</li>`;
-}).join(" ")}`;
+  return `
+      <h4 class="head-bachelors-list">
+        ${master.parent}
+      </ h4>
+      <ul class="un-list">
+        ${master?.text?.map((child) => {
+          return `
+            <li>${child?.list}</li>
+          `
+        }).join(" ")}
+      </ul>
+  `;
+}).join(' ')}`;
 
 // information detail
 const information = [
   {
     id: 1,
-    text: 'Address :No. 86A, Street 110, Russian Federation Boulevard, Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia',
+    text: 'Address : #216, 218, MaoTse Tung, Khan Chamkamon, Phnom Penh',
   },
   {
     id: 2,
-    text: 'Email: info@setecu.com',
+    text: '+85523213563',
   },
   {
     id: 3,
-    text: 'Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514',
+    text: 'E-mail: vandaacc@yahoo.com',
   },
   {
     id: 4,
-    text: 'E-mail:     info@setecu.com',
+    text: 'Website: http://vanda.edu.kh ',
   },
 ];
 
@@ -57,8 +151,6 @@ informationList.innerHTML = `${information?.map((information) => {
   return ` <li>${information.text}</li>`;
 }).join(" ")}`;
 
-// Address :No. 86A, Street 110, Russian Federation Boulevard,
-// Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia
-// Tel / Fax:     023 880612
-// Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514
-// E-mail:     info@setecu.com
+// Address :No.216, 218, MaoTse Tung, Khan Chamkamon, Phnom Penh
+// Tel / Fax:  023213563  
+// E-mail:  vandaacc@yahoo.com   
