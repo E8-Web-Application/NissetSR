@@ -57,17 +57,20 @@ body {
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    padding-top: 6px;
+    vertical-align: middle;
+    /* padding-top: 6px; */
     color: rgb(255, 255, 255);
-    /* border: 2px goldenrod solid; */
     border-radius: 5px;
     background-color: rgba(94, 92, 89, 0.723);
 }
 
 #toop:hover {
-    background-color: rgb(239, 169, 64);
-    transition: 0.75s;
+    background-color: rgb(240, 161, 43);
+    color: rgb(31, 30, 30);
+    transition: 0.5s;
 }
+
+/* #toop:af */
 
 .container {
     font-family: var(--font-family-secondary);
@@ -171,7 +174,7 @@ body {
 }
 
 /* each degree */
-.subdegre_container {
+.subdegree_container {
     background-color: #FEEFEA;
     border-radius: 15px;
     /* to text */
