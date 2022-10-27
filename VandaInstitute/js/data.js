@@ -1,11 +1,15 @@
 const bachelors = [
   {
     id: 1,
-    text: 'Management Information System',
+    text: 'Association of Account',
   },
   {
     id: 2,
-    text: 'Design',
+    text: 'Bachelor of Accounting',
+  },
+  {
+    id: 2,
+    text: 'Bachelor of Finance & Bank',
   },
 ];
 
@@ -150,7 +154,3 @@ const informationList = document.getElementById('information-list');
 informationList.innerHTML = `${information?.map((information) => {
   return ` <li>${information.text}</li>`;
 }).join(" ")}`;
-
-// Address :No.216, 218, MaoTse Tung, Khan Chamkamon, Phnom Penh
-// Tel / Fax:  023213563  
-// E-mail:  vandaacc@yahoo.com   
