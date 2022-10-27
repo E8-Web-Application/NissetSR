@@ -58,7 +58,7 @@ body {
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
-    /* padding-top: 6px; */
+    padding-top: 6px;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     background-color: rgba(94, 92, 89, 0.723);
@@ -166,7 +166,7 @@ body {
 }
 
 /* khmer degree text */
-#labelH3 {
+.labelH3 {
     font-family: var(--font-family-primary);
     color: var(--color-primary);
     font-size: var(--font-size-secondary);
@@ -184,7 +184,7 @@ body {
 }
 
 /* all khmer text */
-#labelH5 {
+.labelH5 {
     font-family: var(--font-family-secondary);
 }
 
