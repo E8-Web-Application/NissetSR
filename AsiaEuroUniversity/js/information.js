@@ -1,23 +1,43 @@
+// information detail
 const information = [
   {
     id: 1,
-    text: 'RUPP Official Web: http://www.rupp.edu.kh/',
-  },
-  {
-    id: 2,
-    text: 'RUPP Official Email: iroffice(at)rupp.edu.kh',
+    text: 'Official Web:',
+    list:'',
+    link: 'https://num.edu.kh/web/web/num/Pages?id=253',
   },
   {
     id: 3,
-    text: 'Tell: 855-23-883-640 RUPP Official',
+    text: 'Official FB page',
+    list:'',
+    link: 'សាកលវិទ្យាល័យជាតិគ្រប់គ្រង',
   },
   {
     id: 4,
-    text: 'FB page: RUPP – Royal University of Phnom Penh',
+    text: 'Official Mail',
+    list:'',
+    link: 'sokmonirath@num.edu.kh',
+  },
+  {
+    id: 5,
+    text: 'Num Address:',
+    list:'St.96 Christoher Howes, Khan Daun Penh Phnom Penh, Cambodia 12202',
+    link: '',
+  },
+  {
+    id: 6,
+    list:'+855 23 428 120',
+    text: 'Tel: ',
+    link: '',
   },
 ];
 
 const informationList = document.getElementById('information-list');
 informationList.innerHTML = `${information?.map((information) => {
-  return ` <li>${information.text}</li>`;
+  return ` <li>
+            <span>${information?.text}</span>
+            <span>${information?.list}</span>
+            <a href="${information?.link}">${information?.link}</a> 
+          </li>
+  `;
 }).join(" ")}`;
