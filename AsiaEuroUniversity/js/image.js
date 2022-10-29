@@ -32,4 +32,4 @@ imageScript.innerHTML = `
                                   <img src="${image?.imageUrl}" class="image-detail" alt="">
                                 </div>`
                       }).join(" ")}`;
-
+                      

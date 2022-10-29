@@ -75,54 +75,51 @@
 	border-radius: 10px;
 	overflow: hidden;
 	transition: 0.5s;
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+.card a {
+	text-decoration: none;
+	font-weight: 500;
+	color: black;
 }
 .image-container {
 	width: 100%;
 	height: 65%;
 	overflow: hidden;
 	margin: 0 auto;
-	border-bottom-left-radius: 25px;
 }
 
 .image-container img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: 0.5s;
-}
-
-.card::before {
-	content: '';
-	position: absolute;
-	height: 0;
-	width: 100%;
-	bottom: 0;
-	left: 0;
-	background-color: #ed562428;
-	transition: 0.5s ease-in-out;
-}
-
-.card:hover::before {
-	height: 100%;
+	transition: 0.2s;
 }
 
 .card:hover {
 	box-shadow: 0 0 10px #ed56248f;
-	scale: 1.05;
+	scale: 1.02;
 }
 
 .text-container {
-    background-color: #ffff;
-    margin-top: -20px;
-    padding: 20px;
+	background-color: #ffff;
+	margin-top: -24px;
+	padding: 16px;
 	width: 100%;
-	height: 50%;
+	height: 43%;
 	text-align: center;
 	position: relative;
-	border-top-right-radius: 25px;
-    z-index: 1000;
-    overflow: hidden;
+	border-radius: 20px 20px 10px 10px;
+	border-top: 3px solid #f68863bf;
+}
+
+.text-container .icon {
+	display: flex;
+	align-self: flex-end;
+}
+.text-container .icon-container {
+	margin-top: 29px;
+	margin-left: 20px;
 }
 
 .text-container button {
@@ -141,7 +138,8 @@
 }
 
 .text-container p {
-	isolation: isolate;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
 .text-container button:hover {
