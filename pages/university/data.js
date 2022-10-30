@@ -3,25 +3,25 @@ const university = [
     id:1,
     image: '../Rupp/images/rupp-cover.jpg',
     name:'The Royal University of Phnom Penh',
-    link:'/Rupp/rupp.html',
+    link:'../Rupp/rupp.html',
   },
   {
     id:2,
     image: '../SetecInstitute/image/s1.jpeg',
     name:'SETEC INSTITUTE',
-    link:'/SetecInstitute/index.html',
+    link:'../SetecInstitute/index.html',
   },
   {
     id:3,
     image: '../AIB/image/banner-building.jpg',
     name:'ACLEDA INSTITUTE OF BUSINESS (AIB)',
-    link:'/AIB/index.html',
+    link:'../AIB/index.html',
   },
   {
     id:4,
     image: '../NIM/image/1607911346037.jpg',
     name:'National University of Management',
-    link:'/NIM/index.html',
+    link:'../NIM/index.html',
   },
   {
     id:5,
@@ -31,21 +31,21 @@ const university = [
   },
   {
     id:6,
-    image: '../Images/rupp.jpg',
-    name:'SETEC INSTITUTE',
-    link:'/SetecInstitute/index.html',
+    image: '../asiaEuroUniversity/images/my_nanner.jpg',
+    name:'Asia Euro University',
+    link:'/pages/asiaEuroUniversity/index.html',
   },
   {
     id:7,
-    image: '../Images/rupp.jpg',
-    name:'SETEC INSTITUTE',
-    link:'/SetecInstitute/index.html',
+    image: '../rule/picture/front.jpg',
+    name:'Royal University of Law and Economics (RULE)',
+    link:'../rule/rule.html',
   },
   {
     id:8,
-    image: '../Images/rupp.jpg',
-    name:'SETEC INSTITUTE',
-    link:'/SetecInstitute/index.html',
+    image: '../theUC/images/2560px-UC_Building_New_Sky.png',
+    name:'The University of Cambodia',
+    link:'../theUC/index.html',
   }
 ];
 const universityLink = document.getElementById('university');
