@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -19,6 +20,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Navbar style start */
@@ -43,13 +45,13 @@ body {
 
 .navbar .navbar-link-block {
   display: flex;
+  gap: 1rem;
   list-style: none;
 }
 
 .navbar a {
   text-decoration: none;
   font-size: 1rem;
-  padding: 0 1rem;
   color: black;
   font-weight: 700;
 }
@@ -337,3 +339,22 @@ body {
 
 
 /* Footer End */
+
+.top-page {
+  position: fixed;
+  color: #fff;
+  z-index: 1000;
+  bottom: 30px ;
+  right: 30px;
+  background-color: #b49185ad;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.top-page i {
+  font-size: 16px;
+}
