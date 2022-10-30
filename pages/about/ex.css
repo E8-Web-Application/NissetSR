@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-body {
-    width: 100%;
-    height: 100%;
-}
 .container {
+	/* height: 100%; */
 	width: 100%;
 	padding: 0 50px;
 	margin: auto;
@@ -23,12 +19,19 @@ body {
 	margin-top: 100px;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 2.1rem;
+	gap: 2rem;
+	row-gap: 84px;
+	/* place-items: center; */
+	/* column-gap: 50px; */
+	/* margin-bottom: 200px; */
 }
 
 .card {
-	width: 100%;
-	height: 340px;
+	width: 300px;
+	/* height: 200px; */
+	/* background-color: #f2f2f2; */
+	/* box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2); */
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	border-radius: 10px;
 	flex-direction: column;
 	display: flex;
@@ -37,21 +40,19 @@ body {
 	cursor: pointer;
 	transition: 0.5s;
 	position: relative;
-    /* background-color: #eae4e22d; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	padding-bottom: 30px;
 }
 
 .card .card-profile {
-	width: 160px;
-	height: 160px;
+	width: 150px;
+	height: 150px;
 	background-color: #f2f2f2;
 	position: relative;
-	top: 20px;
+	top: -50px;
 	border-radius: 10px;
 	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
 	border-radius: 50%;
-    border: 2px solid #ff410075;
 }
 
 .card-profile img {
@@ -63,55 +64,30 @@ body {
 .card-profile .img-4 {
 	height: auto;
 }
-.top-container {
-    width: 100%;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    /* background-color: #ed5724; */
-}
-
-.bottom-container {
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    width: 100%;
-    height: 70%;
-	display: flex;
-    flex-direction: column;
-	align-items: center;
-	text-align: center;
-	cursor: pointer;
-    border-radius: 10px;
-}
 
 .card .text {
 	position: relative;
-	top: 95px;
+	top: -30px;
 }
 
 .card .text .name {
 	font-weight: 500;
-	font-size: 24px;
-    font-weight: 600;
-    text-transform: uppercase;
+	font-size: 20px;
 }
 
 .card .text .position {
 	color: #ed5724;
-    font-size: 17px;
 }
 
 .social-media {
 	position: absolute;
 	display: flex;
-    justify-content: center;
 	gap: 20px;
 	bottom: 0;
 	opacity: 1;
 	transform: translateY(-20px);
 	transition: 0.5s ease-in-out;
 	scale: 0.8;
-    margin-bottom: 10px;
 }
 
 .social-media .box {

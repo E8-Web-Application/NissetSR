@@ -1,5 +1,5 @@
-/* Welcome content start */
 
+/* Welcome content start */
 .welcome-container {
     width: 100%;
     height: 500px;
@@ -72,7 +72,7 @@
 	height: 100%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 2rem;
+	gap: 2.1rem;
 	place-items: center;
 }
 
@@ -81,6 +81,9 @@
 		grid-template-columns: repeat(3, 1fr);
 		gap: 2rem;
 	}
+    .mySwiper {
+        height: 650px;
+    }
 }
 
 @media (max-width: 1100px) {
@@ -88,6 +91,9 @@
 		grid-template-columns: repeat(2, 1fr);
 		gap: 2rem;
 	}
+    .mySwiper {
+        height: 580px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -195,6 +201,9 @@
 		width: 500px;
 		height: 400px;
 	}
+    .mySwiper {
+        height: 500px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -212,49 +221,15 @@
 		width: 300px;
 		height: 350px;
 	}
-}
-
-/* 
-.university-container {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    margin-top: 50px;
-}
-
-.university-container h1 {
-    font-size: 1.3rem;
-    margin-bottom: 20px;
-}
-
-.university {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    place-items: center;
-}
-
-@media (max-width: 1000px) {
-    .university {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
+    .mySwiper {
+        height: 400px;
     }
 }
-
-@media (max-width: 768px) {
-    .university {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
-        place-items: center;
+@media screen and (max-width: 390px) {
+    .mySwiper {
+        height: 360px;
     }
-} */
-
-
+}
 /* University End */
 
 /* Footer Start */
