@@ -25,9 +25,9 @@ const university = [
   },
   {
     id:5,
-    image: '../Images/rupp.jpg',
-    name:'SETEC INSTITUTE',
-    link:'/SetecInstitute/index.html',
+    image: '../VandaInstitute/image/p6.jpg',
+    name:'Vanda Institute',
+    link:'../VandaInstitute/index.html',
   },
   {
     id:6,
