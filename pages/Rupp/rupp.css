@@ -16,22 +16,24 @@
 }
 
 .container .title {
-    position: relative;
     margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container .title .back-btn {
-    position: absolute;
-    right: 50px;
-    top: 0;
-    width: 80px;
-    height: 30px;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 9px 13px;
+    margin-top: 10px;
+    background: none;
     border: none;
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, .2);
-    cursor: pointer;
     background-color: var(--color-orange);
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .back-btn:active {
@@ -46,7 +48,6 @@
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 100px;
 }
 
 .school-image-cover img {
@@ -63,6 +64,9 @@
 .image-title h4 {
     font-family: var(--font-family-preahvihear);
     color: var(--color-orange);
+    margin: 30px 0;
+    text-align: center;
+    font-size: 25px;
 }
 
 .image-container {
