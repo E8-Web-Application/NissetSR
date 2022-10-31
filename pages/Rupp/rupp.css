@@ -7,7 +7,7 @@
 }
 
 .container {
-    padding: 20px;
+    padding: 0 50px;
 }
 
 .container .title h3 {
@@ -17,6 +17,7 @@
 
 .container .title {
     position: relative;
+    margin: 20px 0;
 }
 
 .container .title .back-btn {
@@ -131,12 +132,7 @@
     }
 }
 
-
 /* School description start */
-
-.school-description {
-    padding: 20px;
-}
 
 .school-description p {
     font-family: var(--font-family-kantumruy);
@@ -163,10 +159,5 @@
 .school-description li {
     font-family: var(--font-family-kantumruy);
 }
-
-.school-description .info {
-    margin-bottom: 100px;
-}
-
 
 /* School description end */

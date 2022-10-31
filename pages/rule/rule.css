@@ -1,215 +1,214 @@
 :root {
-    --color-primary: #ED5724;
-    --font-family-primary: Preahvihear, sans-serif;
-    --font-family-secondary: Kantumruy, sans-serif;
-    --shadow-color: #ed562450;
-    --bg: #ed562425;
-    --font-size-primary: 22px;
-    --font-size-secondary: 18px;
-    --font-size-normal: 15px;
+	--color-primary: #ed5724;
+	--font-family-primary: Preahvihear, sans-serif;
+	--font-family-secondary: Kantumruy, sans-serif;
+	--shadow-color: #ed562450;
+	--bg: #ed562425;
+	--font-size-primary: 22px;
+	--font-size-secondary: 18px;
+	--font-size-normal: 15px;
 }
 
 @media screen and (max-width: 1000px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
-    .images-detail {
-        width: 100%;
-    }
+	.images-detail {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        padding: 0 30px;
-    }
+	.container {
+		padding: 0 30px;
+	}
 
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
 
-    .images-detail {
-        width: 100%;
-    }
+	.images-detail {
+		width: 100%;
+	}
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
 }
 
 .container {
-    /* height: 100%; */
-    width: 100%;
-    padding: 0px 40px;
-    /* padding: 0 50px; */
-    margin: auto;
+	height: 100%;
+	width: 100%;
+	padding: 0 50px;
+	margin: auto;
 }
 
 /* button */
 #toop {
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    font-size: 20px;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 6px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: rgba(94, 92, 89, 0.723);
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 6px;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	background-color: rgba(94, 92, 89, 0.723);
 }
 
 #toop:hover {
-    background-color: rgb(240, 161, 43);
-    color: rgb(31, 30, 30);
-    transition: 0.5s;
+	background-color: rgb(240, 161, 43);
+	color: rgb(31, 30, 30);
+	transition: 0.5s;
 }
 
 /* #toop:af */
 
 .container {
-    font-family: var(--font-family-secondary);
-    font-size: 18px;
-    padding-top: 10px;
+	font-family: var(--font-family-secondary);
+	font-size: 18px;
+	padding-top: 10px;
 }
 
 /* title */
 #Nkh {
-    /* font-weight: bold; */
-    font-family: var(--font-family-primary);
-    color: var(--color-primary);
-    font-size: var(--font-size-primary);
-    margin: 10px;
-    letter-spacing: 2px;
+	/* font-weight: bold; */
+	font-family: var(--font-family-primary);
+	color: var(--color-primary);
+	/* font-size: var(--font-size-primary); */
+    font-size: 1.25rem;
+	letter-spacing: 2px;
 }
 
 #Nen {
-    margin-bottom: 20px;
-    font-size: var(--font-size-secondary);
+	margin-bottom: 20px;
+	font-size: var(--font-size-secondary);
 }
 
 /* banner img */
 .img_banner {
-    width: 100%;
-    height: 100%;
-    /* height: 300px; */
-    overflow: hidden;
-    border-radius: 15px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
 #banner {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	object-fit: cover;
 }
 
 #banner:hover {
-    transform: scale(1.1);
-    transition: all .4s;
+	transform: scale(1.1);
+	transition: all 0.4s;
 }
 
 /* images container */
 .images-detail {
-    width: 80%;
-    margin: auto;
-    height: auto;
-    margin-bottom: 20px;
+	width: 80%;
+	margin: auto;
+	height: auto;
+	margin-bottom: 20px;
 }
 
 /* image layout */
 .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2rem;
 }
 
 /* each img */
 .box {
-    height: 260px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    overflow: hidden;
-    border-radius: 5px;
+	height: 260px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	overflow: hidden;
+	border-radius: 5px;
 }
 
 .img-detail {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .img-detail:hover {
-    transform: scale(1.1);
-    transition: all .4s;
+	transform: scale(1.1);
+	transition: all 0.4s;
 }
 
 /* introduction */
 #labelH5detail {
-    padding: 10px 20px 0px 20px;
-    font-family: var(--font-family-secondary);
-    font-size: var(--font-size-normal);
+	padding: 10px 20px 0px 20px;
+	font-family: var(--font-family-secondary);
+	font-size: var(--font-size-normal);
 }
 
 .cen {
-    text-align: center;
+	text-align: center;
 }
 
 /* collages... */
 .allCollage {
-    /* border: 2px blue solid; */
-    font-size: var(--font-size-normal);
+	/* border: 2px blue solid; */
+	font-size: var(--font-size-normal);
 }
 
 /* khmer degree text */
 .labelH3 {
-    font-family: var(--font-family-primary);
-    color: var(--color-primary);
-    font-size: var(--font-size-secondary);
-    padding: 20px 15px 5px 25px;
+	font-family: var(--font-family-primary);
+	color: var(--color-primary);
+	font-size: var(--font-size-secondary);
+	margin: 30px 0;
+	text-align: center;
+	font-size: 25px;
 }
 
 /* each degree */
 .subdegree_container {
-    background-color: #FEEFEA;
-    border-radius: 15px;
-    /* to text */
-    padding: 15px 35px;
-    line-height: 30px;
-    /* border: 2px tomato solid; */
+	background-color: #feefea;
+	border-radius: 15px;
+	/* to text */
+	padding: 15px 35px;
+	line-height: 30px;
+	/* border: 2px tomato solid; */
 }
 
 /* all khmer text */
 .labelH5 {
-    font-family: var(--font-family-secondary);
+	font-family: var(--font-family-secondary);
 }
 
 /* color text */
 .colored {
-    color: var(--color-primary);
-    /* font-size: var(--font-size-normal); */
+	color: var(--color-primary);
+	/* font-size: var(--font-size-normal); */
 }
 
 .master_detail {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 /* contract info */
-.info>li {
-    padding: 5px 0px;
+.info > li {
+	padding: 5px 0px;
 }
 
 .info li a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .info li a:hover {
-    font-weight: bold;
-    font-family: var(--font-family-primary);
-    color: chocolate;
+	font-weight: bold;
+	font-family: var(--font-family-primary);
+	color: chocolate;
 }
-

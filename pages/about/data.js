@@ -66,7 +66,7 @@ const about = [
 		id: 8,
 		img: './images/ve.jpg',
 		name: 'Ly Veasna',
-		position: 'Full Stack Developer',
+		position: 'Software Engineer',
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',

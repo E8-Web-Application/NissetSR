@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RULE</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="rule.css">
     <link rel="stylesheet" href="../../styles/nav-footer.css">
 </head>
 
 <body>
-    <a name="top"></a>
-
     <!-- navbar start -->
     <nav class="navbar">
         <a href="../../index.html">
@@ -55,14 +53,17 @@
     <!-- start content -->
     <div class="container">
         <!-- start description -->
-        <div>
-            <span id="Nkh">សាកលវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រ និងវិទ្យាសាស្ត្រសេដ្ឋកិច្ច</span> <br>
-            <span id="Nen">Royal University of Law and Economics (RULE)</span> <br> <br>
-
-            <div class="img_banner">
-                <img id="banner" src="picture/front.jpg" alt="RULE's front door.">
+        <div style="display: flex; justify-content:space-between ; align-items: center; margin-top: 30px">
+            <div class="">
+                <h3 id="Nkh">សាកលវិទ្យាល័យភូមិន្ទនីតិសាស្ត្រ និងវិទ្យាសាស្ត្រសេដ្ឋកិច្ច</h3>
+                <p id="Nen">Royal University of Law and Economics (RULE)</p>
             </div>
-
+            <div class="">
+                <a href="../university/university.html" class="button-back"><i class="fa-solid fa-chevron-left"></i> Back</a>
+            </div>
+        </div>
+        <div class="img_banner">
+            <img id="banner" src="picture/front.jpg" alt="RULE's front door.">
         </div>
         <!-- end description -->
 
@@ -246,8 +247,9 @@
     </div>
     <!-- End Footer -->
 
-    <a href="#top" id="toop">^</a>
-
+    <a href="#top" class="top-page">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
     <script src="../../javascript/app.js"></script>
 </body>
 

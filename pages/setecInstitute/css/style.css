@@ -282,8 +282,9 @@ body {
 }
 
 .button-back {
+  font-size: 13px;
   text-decoration: none;
-  padding: 8px 18px;
+  padding: 9px 13px;
   margin-top: 10px;
   background: none;
   border: none;
@@ -303,7 +304,7 @@ body {
 
 .footer-container {
   width: 100%;
-  height: 400px;
+  height: 280px;
   background-color: #2B383B;
   display: flex;
   justify-content: center;
@@ -344,17 +345,21 @@ body {
   position: fixed;
   color: #fff;
   z-index: 1000;
-  bottom: 30px ;
-  right: 30px;
-  background-color: #b49185ad;
+  bottom: 20px ;
+  right: 20px;
+  background-color: #b59c933b;
   text-decoration: none;
   font-weight: 700;
-  padding: 8px 10px;
-  border-radius: 10px;
+  padding: 5px 8px;
+  border-radius: 5px;
   font-size: 12px;
   vertical-align: middle;
+  transition: 0.5s ease-in-out;
 }
 
+.top-page:hover {
+  background-color: #ED5724;
+}
 .top-page i {
   font-size: 16px;
 }

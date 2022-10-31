@@ -36,29 +36,42 @@ msterList.innerHTML = `${master?.map((master) => {
 const information = [
   {
     id: 1,
-    text: 'Address :No. 86A, Street 110, Russian Federation Boulevard, Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia',
-  },
-  {
-    id: 2,
-    text: 'Email: info@setecu.com',
+    text: 'Official Web :',
+    list:'',
+    link: 'https://www.acleda-aib.edu.kh/tc/eng/',
   },
   {
     id: 3,
-    text: 'Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514',
+    text: 'Official page :',
+    list:'',
+    link: 'https://www.facebook.com/setecu' , 
   },
   {
     id: 4,
-    text: 'E-mail:     info@setecu.com',
+    text: 'Official mail :',
+    list:'',
+    link: 'info@setecu.com',
+  },
+  {
+    id: 5,
+    text: 'Address:',
+    list:' Address :No. 86A, Street 110, Russian Federation Boulevard, Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia',
+    link: '',
+  },
+  {
+    id: 6,
+    list:'010 880612, 011 600619, 012 395190, 013 880612, 016 229514',
+    text: 'Tel: ',
+    link: '',
   },
 ];
 
 const informationList = document.getElementById('information-list');
 informationList.innerHTML = `${information?.map((information) => {
-  return ` <li>${information.text}</li>`;
+  return ` <li>
+            <span>${information?.text}</span>
+            <span>${information?.list}</span>
+            <a href="${information?.link}">${information?.link}</a> 
+          </li>
+  `;
 }).join(" ")}`;
-
-// Address :No. 86A, Street 110, Russian Federation Boulevard,
-// Sangkat Teuk Laak I, Khan Toul Kork, Phnom Penh, Cambodia
-// Tel / Fax:     023 880612
-// Mobile:     010 880612, 011 600619, 012 395190, 013 880612, 016 229514
-// E-mail:     info@setecu.com
