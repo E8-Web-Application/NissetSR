@@ -7,6 +7,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/sok.chansocheat.1',
 		linkGit: 'https://github.com/cheat2001',
 		linkIG: 'https://www.linkedin.com/in/chansocheat-sok-55a03b243/',
+		linkWeb:'',
 	},
 	{
 		id: 2,
@@ -16,6 +17,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/seyha.vornn/',
 		linkGit: 'https://github.com/SeyhaVORN',
 		linkIG: 'https://www.linkedin.com/in/seyha-vorn/',
+		linkWeb:'https://nextjs-portfolio-seyhavorn.vercel.app/',
 	},
 	{
 		id: 3,
@@ -25,6 +27,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/pozz.vln',
 		linkGit: 'https://github.com/Videvo',
 		linkIG: '',
+		linkWeb:'',
 	},
 	{
 		id: 4,
@@ -34,6 +37,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
+		linkWeb:'',
 	},
 	{
 		id: 5,
@@ -43,6 +47,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
+		linkWeb:'',
 	},
 	{
 		id: 6,
@@ -52,6 +57,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
+		linkWeb:'',
 	},
 	{
 		id: 7,
@@ -61,6 +67,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
+		linkWeb:'',
 	},
 	{
 		id: 8,
@@ -70,6 +77,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
+		linkWeb:'',
 	},
 ];
 
@@ -102,6 +110,11 @@ aboutCard.innerHTML = ` ${about
 						<div class="instagram box">
 								<a href="${about?.linkIG}" target="_blank">
 										<img width="20" src="/Images/linkedin.png" alt="">
+								</a>
+						</div>
+						<div class="website box">
+								<a href="${about?.linkWeb}" target="_blank">
+										<img width="20" src="/Images/web.png" alt="">
 								</a>
 						</div>
 				</div>
