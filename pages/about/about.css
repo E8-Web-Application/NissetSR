@@ -38,11 +38,18 @@
     display: flex;
     align-items: center;
     text-align: center;
-    cursor: pointer;
-    transition: 0.5s;
+    transition: .5S ease-in-out;
     position: relative;
     /* background-color: #eae4e22d; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transform: translate(-100px, -50px);
+    opacity: 0;
+}
+
+.card-scroll-active {
+    transform: translate(0, 0);
+    transition: 0.5S linear;
+    opacity: 1;
 }
 
 .card .card-profile {
@@ -82,7 +89,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    cursor: pointer;
     border-radius: 10px;
 }
 

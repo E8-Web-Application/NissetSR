@@ -77,8 +77,16 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     overflow: hidden;
-    transition: 0.5s;
+    transition: .5S ease-in-out;
     box-sizing: border-box;
+    transform: translate(-100px, -50px);
+    opacity: 0;
+}
+
+.card-scroll-active {
+    transform: translate(0, 0);
+    transition: 1S;
+    opacity: 1;
 }
 
 .card a {

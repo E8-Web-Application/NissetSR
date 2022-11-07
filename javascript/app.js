@@ -26,21 +26,26 @@ window.addEventListener("resize", () => {
 
 
 
-// Slide 
+function scrollAnimation(){
+  const cards=document.querySelectorAll(".card");
+  let i=0;
+  cards.forEach(card=>{
+    i=i+0.12;
+    card.style.transitionDelay=i+"s";
+  const cardPosition=card.getBoundingClientRect().top;
+  const screenPosition=window.innerHeight/1.6;
+  if(cardPosition<screenPosition){
+    card.classList.add("card-scroll-active");
+  }
+  else{
+    card.classList.remove("card-scroll-active");
+  }
+  })
+}
 
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
+window.addEventListener("scroll",()=>{
+  scrollAnimation();
+})
+
+
+
