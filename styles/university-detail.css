@@ -117,21 +117,23 @@ body {
 }
 
 .bachelors-list {
-	width: 90%;
+	width: 95%;
 	height: auto;
 	background-color: var(--bg);
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px;
+    border-radius: 5px;
 }
 
 .scholarship {
-	width: 90%;
+	width: 95%;
 	height: auto;
 	background-color: var(--bg);
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px;
+    border-radius: 5px;
 }
 
 .head-bachelors-list {
@@ -151,12 +153,13 @@ body {
 
 .master-list,
 .information-list {
-	width: 90%;
+	width: 95%;
 	height: auto;
 	background-color: var(--bg);
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px;
+    border-radius: 5px;
 }
 
 /* end content */
