@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Images/student.png" type="image/x-icon">
     <title>Home</title>
     <!-- css link start -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="styles/nav-footer.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="/styles/style.css">
     <!--css link end  -->
@@ -54,24 +54,6 @@
     <!-- navbar end -->
 
     <div class="content">
-        <!-- Swiper -->
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="/Images/rupp.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="/pages/NIM/image/22692.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="/pages/rule/picture/front.jpg" alt=""></div>
-                <div class="swiper-slide"><img src="/pages/setecInstitute/image/s1.jpeg" alt=""></div>
-                <div class="swiper-slide"><img src="/pages/theUC/images/2560px-UC_Building_New_Sky.png" alt=""></div>
-                <div class="swiper-slide"><img src="/pages/aib/image/aib.jpg" alt=""></div>
-                <div class="swiper-slide">
-                    <img src="Images/rupp-student.jpg" alt=" ">
-                </div>
-            </div>
-            <div class="swiper-button-next "></div>
-            <div class="swiper-button-prev "></div>
-            <div class="swiper-pagination "></div>
-        </div>
-
         <!-- welcome start -->
         <div class="welcome-container">
             <div class="welcome-content">
@@ -86,8 +68,11 @@
 
         <!-- Best University Start -->
         <div class="university-container ">
-            <h1>Cambodia's <span class="sr ">Best</span> Universities</h1>
-            <div class="university " id="card-university"></div>
+            <h1>Cambodia's Best Universities</h1>
+            <p>Which university is right for you?</p>
+            <div class="university " id="card-university">
+                <!-- Render University Card By Using JavaScript -->
+            </div>
             <a class="see-all" href="./pages/university/university.html">See All Universities</a>
         </div>
     </div>

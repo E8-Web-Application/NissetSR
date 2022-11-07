@@ -40,4 +40,4 @@ cardUniversity.innerHTML = ` ${university?.map((university) =>{
                     </div>
                 </a>
                </div>`
-    }).join(" ")}`;
+    }).join("")}`;

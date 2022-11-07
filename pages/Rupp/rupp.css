@@ -80,8 +80,6 @@
 .school-image {
     width: 400px;
     height: 400px;
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -136,16 +134,18 @@
     }
 }
 
+
 /* School description start */
 
 .school-description p {
     font-family: var(--font-family-kantumruy);
+    margin-top: 50px;
 }
 
-.school-description>h4 {
+.school-description>h2 {
     font-family: var(--font-family-preahvihear);
     color: var(--color-orange);
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .school-description ul {
@@ -163,5 +163,6 @@
 .school-description li {
     font-family: var(--font-family-kantumruy);
 }
+
 
 /* School description end */
