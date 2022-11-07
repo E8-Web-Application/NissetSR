@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -44,12 +45,13 @@ body {
 .navbar .navbar-link-block {
     display: flex;
     list-style: none;
+    gap: 1rem;
 }
 
 .navbar a {
     text-decoration: none;
     font-size: 1rem;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
     color: black;
     font-weight: 700;
 }
@@ -293,17 +295,47 @@ body {
 }
 
 .button-back {
+    font-size: 13px;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 9px 13px;
     margin-top: 10px;
     background: none;
     border: none;
     background-color: var(--color-primary);
     color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     transition: 0.3s;
     cursor: pointer;
+}
+
+.button-back:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Button to Top of page */
+
+.top-page {
+    position: fixed;
+    color: #fff;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    background-color: #b59c933b;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+    transition: 0.5s ease-in-out;
+}
+
+.top-page:hover {
+    background-color: #ED5724;
+}
+
+.top-page i {
+    font-size: 16px;
 }
 
 /* end content */
