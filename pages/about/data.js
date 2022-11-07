@@ -7,7 +7,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/sok.chansocheat.1',
 		linkGit: 'https://github.com/cheat2001',
 		linkIG: 'https://www.linkedin.com/in/chansocheat-sok-55a03b243/',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 2,
@@ -17,7 +17,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/seyha.vornn/',
 		linkGit: 'https://github.com/SeyhaVORN',
 		linkIG: 'https://www.linkedin.com/in/seyha-vorn/',
-		linkWeb:'https://nextjs-portfolio-seyhavorn.vercel.app/',
+		linkWeb: 'https://nextjs-portfolio-seyhavorn.vercel.app/',
 	},
 	{
 		id: 3,
@@ -27,7 +27,7 @@ const about = [
 		linkFace: 'https://web.facebook.com/pozz.vln',
 		linkGit: 'https://github.com/Videvo',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 4,
@@ -37,7 +37,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 5,
@@ -47,7 +47,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 6,
@@ -57,7 +57,7 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 7,
@@ -67,17 +67,17 @@ const about = [
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 	{
 		id: 8,
-		img: './images/ve.jpg',
+		img: './images/liza.jpg',
 		name: 'Ly Veasna',
 		position: 'Software Engineer',
 		linkFace: '',
 		linkGit: '',
 		linkIG: '',
-		linkWeb:'',
+		linkWeb: '',
 	},
 ];
 
