@@ -183,12 +183,11 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
     .university-container h1 {
         font-size: 18px;
     }
     .card {
         width: 300px;
-        height: 350px;
     }
 }
