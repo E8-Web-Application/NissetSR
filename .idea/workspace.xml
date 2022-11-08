@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3614373-e612-450f-be16-68172156aafe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AIB/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/2c48ad2e-f042-44a3-9192-f57a3a66b204.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/2c48ad2e-f042-44a3-9192-f57a3a66b204.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/311301563_3427000194251455_397291004112671352_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/311301563_3427000194251455_397291004112671352_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/41f9add2-707b-4b00-8d9c-cbf2db1e72ab.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/41f9add2-707b-4b00-8d9c-cbf2db1e72ab.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/6e4fef6b-6c98-4b72-95e8-c7baaf2fc5b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/6e4fef6b-6c98-4b72-95e8-c7baaf2fc5b2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/89970415_2653521911599291_3242972373183365120_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/89970415_2653521911599291_3242972373183365120_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/ACLEDA-Institute-of-Business-Featured-998x749-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/ACLEDA-Institute-of-Business-Featured-998x749-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/aib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/aib.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/aib1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/aib1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/banner-building.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/banner-building.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/e78b7c7d-2f47-4ece-8452-d5473e89b34a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/e78b7c7d-2f47-4ece-8452-d5473e89b34a.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/image/img-languages.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/image/img-languages.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/js/bachelors.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/js/bachelors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB/js/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/2c48ad2e-f042-44a3-9192-f57a3a66b204.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/311301563_3427000194251455_397291004112671352_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/41f9add2-707b-4b00-8d9c-cbf2db1e72ab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/6e4fef6b-6c98-4b72-95e8-c7baaf2fc5b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/89970415_2653521911599291_3242972373183365120_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/ACLEDA-Institute-of-Business-Featured-998x749-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/aib.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/aib1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/banner-building.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/e78b7c7d-2f47-4ece-8452-d5473e89b34a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/image/img-languages.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/js/bachelors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/js/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIB_WEB/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/img6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/img6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/library.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/library.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/logo-asia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/logo-asia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/logoImage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/logoImage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/my_nanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/my_nanner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/images/study.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/images/study.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/js/bachelors.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/js/bachelors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/js/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/js/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AsiaEuroUniversity/js/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/asiaEuroUniversity/js/master.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/1607911346037.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/1607911346037.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/19961091_1619201021485360_2936204355977939031_n.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/19961091_1619201021485360_2936204355977939031_n.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/22692.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/22692.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/42432668_wGS7NcoT1vV2opIbzYgiEFc46mzjIchPqCJM1_ZzCkg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/42432668_wGS7NcoT1vV2opIbzYgiEFc46mzjIchPqCJM1_ZzCkg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/8-num.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/8-num.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/clc_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/clc_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/images.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/m1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/m1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/image/m2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/image/m2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/js/bachelors.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/js/bachelors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIM/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/NIM/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp-cover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp-cover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp1.jfif" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp1.jfif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp5.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/images/rupp6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/images/rupp6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/rupp.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/rupp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rupp/rupp.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rupp/rupp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s3.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s4.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s5.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/s6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/s6.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/image/se1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/image/se1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SetecInstitute/js/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setecInstitute/js/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/aib/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/2560px-UC_Building_New_Sky.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/2560px-UC_Building_New_Sky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/294747690_5979298262086271_903867814748826578_n.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/294747690_5979298262086271_903867814748826578_n.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/Computers_in_the_Handa_Library.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/Computers_in_the_Handa_Library.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/IMG_4716.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/IMG_4716.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/IMG_4717.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/IMG_4717.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/Scholarships_at_UC_-_2022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/Scholarships_at_UC_-_2022.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/UC_main_staircase_.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/UC_main_staircase_.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/ae5275ff-03e7-483b-b359-2a94cd66e47a.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/ae5275ff-03e7-483b-b359-2a94cd66e47a.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/images/images.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/images/images.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/js/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/js/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The_UC/js/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/theUC/js/text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/image/p6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/image/p6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/js/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/js/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VandaInstitute/js/information.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vandaInstitute/js/information.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/images/codingspace.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/images/codingspace.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/images/group.gif" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/images/group.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/images/seyha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/images/seyha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/university.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/b12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/b12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/b22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/b22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/b32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/b32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/b4_new_building_in_20042.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/b4_new_building_in_20042.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/b52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/b52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/front.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/map.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/map.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/picture/rule_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/picture/rule_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/rule.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/rule.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/rule.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/rule/rule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/university.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/university.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/university/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university/university.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/university/university.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university/university.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/university/university.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GqG2sgHDeMy78OQ3MicyPwwUWg" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/seyhavorn/code/Year4/Web Application/project/UniversityOfCambodia",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3614373-e612-450f-be16-68172156aafe" name="Changes" comment="" />
+      <created>1667108501227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667108501227</updated>
+      <workItem from="1667108504920" duration="458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

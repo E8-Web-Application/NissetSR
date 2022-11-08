@@ -4,10 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
-    --color-primary: #ED5724;
+    --color-primary: #ed5724;
     --font-family-primary: Preahvihear, sans-serif;
     --font-family-secondary: Kantumruy, sans-serif;
     --shadow-color: #ed562450;
@@ -163,7 +164,7 @@ body {
 }
 
 .khmer-title {
-    color: #ED5724;
+    color: #ed5724;
     font-family: var(--font-family-primary);
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -172,18 +173,17 @@ body {
 .banner {
     width: 100%;
     height: 600px;
-    /* border: 2px solid var(--color-primary);*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .school-logo {
-    object-fit: cover;
     width: 100%;
     height: 100%;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    object-fit: cover;
 }
 
 .school-mid-title {
@@ -209,9 +209,9 @@ body {
 .box {
     height: 260px;
     /* border: 2px solid #9ba1a2; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    box-shadow: rgba(var(--color-primary)) 0px 7px 29px 0px;
+    /* box-shadow: rgba(var(--color-primary)) 0px 7px 29px 0px; */
     overflow: hidden;
     border-radius: 5px;
 }
@@ -224,7 +224,7 @@ body {
 
 .image-detail:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* transform: scale(1.1); */
+    transform: scale(1.1);
     transition: all .4s;
 }
 
@@ -245,21 +245,23 @@ body {
 }
 
 .bachelors-list {
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: var(--bg);
     margin: auto;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .scholarship {
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: var(--bg);
     margin: auto;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 .head-bachelors-list {
@@ -279,26 +281,13 @@ body {
 
 .master-list,
 .information-list {
-    width: 90%;
+    width: 95%;
     height: auto;
     background-color: var(--bg);
     margin: auto;
     margin-top: 20px;
     padding: 10px;
-}
-
-.button-back {
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    background: none;
-    border: none;
-    background-color: var(--color-primary);
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
-    cursor: pointer;
+    border-radius: 5px;
 }
 
 
