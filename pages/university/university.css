@@ -181,6 +181,9 @@
         width: 400px;
         height: 350px;
     }
+    .university-container {
+        padding: 0;
+    }
 }
 
 @media (max-width: 450px) {
