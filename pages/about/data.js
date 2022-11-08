@@ -99,22 +99,22 @@ aboutCard.innerHTML = ` ${about
 				<div class="social-media">
 						<div class="facebook box">
 								<a href="${about?.linkFace}" target="_blank">
-										<img width="20" src="/Images/facebook.png" alt="">
+										<img width="20" src="../../Images/facebook.png" alt="">
 								</a>
 						</div>
 						<div class="github box">
 								<a href="${about?.linkGit}" target="_blank">
-										<img width="20" src="/Images/github-sign.png" alt="">
+										<img width="20" src="../../Images/github-sign.png" alt="">
 								</a>
 						</div>
 						<div class="instagram box">
 								<a href="${about?.linkIG}" target="_blank">
-										<img width="20" src="/Images/linkedin.png" alt="">
+										<img width="20" src="../../Images/linkedin.png" alt="">
 								</a>
 						</div>
 						<div class="website box">
 								<a href="${about?.linkWeb}" target="_blank">
-										<img width="20" src="/Images/web.png" alt="">
+										<img width="20" src="../../Images/web.png" alt="">
 								</a>
 						</div>
 				</div>

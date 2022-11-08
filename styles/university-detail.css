@@ -31,6 +31,11 @@ body {
     margin: auto;
 }
 
+.container li {
+    font-family: var(--font-family-secondary);
+    font-weight: 400;
+}
+
 .detail-titles {
     margin: 20px 0;
     display: flex;

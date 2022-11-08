@@ -1,27 +1,27 @@
 const university = [
   {
     id:1,
-    image: './pages/Rupp/images/rupp-cover.jpg',
+    image: 'pages/Rupp/images/rupp-cover.jpg',
     name:'The Royal University of Phnom Penh',
-    link:'./pages/Rupp/rupp.html',
+    link:'pages/Rupp/rupp.html',
   },
   {
     id:2,
-    image: './pages/SetecInstitute/image/s1.jpeg',
+    image: 'pages/SetecInstitute/image/s1.jpeg',
     name:'SETEC INSTITUTE',
-    link:'./pages/SetecInstitute/index.html',
+    link:'pages/SetecInstitute/index.html',
   },
   {
     id:3,
-    image: './pages/AIB/image/banner-building.jpg',
+    image: 'pages/AIB/image/banner-building.jpg',
     name:'ACLEDA INSTITUTE OF BUSINESS (AIB)',
-    link:'./pages/Norton/index.html',
+    link:'pages/aib/index.html',
   },
   {
     id:4,
-    image: './pages/NIM/image/1607911346037.jpg',
+    image: 'pages/NIM/image/1607911346037.jpg',
     name:'National University of Management',
-    link:'./pages/NIM/index.html',
+    link:'pages/NIM/index.html',
   },
 ];
 const cardUniversity = document.getElementById('card-university');

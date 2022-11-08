@@ -33,7 +33,7 @@ const university = [
     id:6,
     image: '../asiaEuroUniversity/images/my_nanner.jpg',
     name:'Asia Euro University',
-    link:'/pages/asiaEuroUniversity/index.html',
+    link:'../asiaEuroUniversity/index.html',
   },
   {
     id:7,
