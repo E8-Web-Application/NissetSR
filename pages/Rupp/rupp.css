@@ -25,7 +25,7 @@
 .container .title .back-btn {
     font-size: 13px;
     text-decoration: none;
-    padding: 9px 13px;
+    padding: 9px;
     margin-top: 10px;
     background: none;
     border: none;
@@ -44,8 +44,6 @@
     max-width: 1400px;
     height: 600px;
     margin: 10px auto;
-    border: 1px solid var(--color-orange);
-    box-shadow: -2px 1px 5px var(--color-orange);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -72,18 +70,17 @@
 .image-container {
     width: 100%;
     display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     place-items: center;
+    gap: 2rem;
+    padding: 0 100px;
 }
 
 .school-image {
     width: 400px;
-    height: 400px;
+    height: 250px;
     overflow: hidden;
     border-radius: 10px;
-    border: 1px solid var(--color-orange);
-    box-shadow: -2px 1px 5px var(--color-orange);
 }
 
 .school-image img {
@@ -95,10 +92,12 @@
 @media (max-width:1300px) {
     .school-image {
         width: 300px;
-        height: 300px;
     }
     .school-image-cover {
         height: 500px;
+    }
+    .image-container {
+        padding: 0;
     }
 }
 
@@ -120,21 +119,23 @@
     }
     .school-image {
         width: 400px;
-        height: 400px;
     }
     .school-image-cover {
         height: 400px;
+    }
+    .container {
+        padding: 0 20px;
     }
 }
 
 @media (max-width:500px) {
     .school-image {
-        width: 290px;
-        height: 300px;
+        width: 350px;
+        height: 200px;
     }
     .school-image-cover {
-        width: 290px;
-        height: 300px;
+        width: 350px;
+        height: 250px;
     }
 }
 

@@ -71,7 +71,7 @@ const about = [
 	},
 	{
 		id: 8,
-		img: './images/liza.jpg',
+		img: './images/ve.jpg',
 		name: 'Ly Veasna',
 		position: 'Space Engineer',
 		linkFace: '',

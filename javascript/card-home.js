@@ -15,7 +15,7 @@ const university = [
     id:3,
     image: './pages/AIB/image/banner-building.jpg',
     name:'ACLEDA INSTITUTE OF BUSINESS (AIB)',
-    link:'./pages/AIB/index.html',
+    link:'./pages/Norton/index.html',
   },
   {
     id:4,
