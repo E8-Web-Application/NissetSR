@@ -155,6 +155,9 @@
     .card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .container {
+        padding-right: 45px;
+    }
 }
 
 

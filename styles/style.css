@@ -36,7 +36,7 @@ body {
 
 .navbar .navbar-link-block {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     list-style: none;
 }
 
@@ -45,14 +45,13 @@ body {
     font-size: 1rem;
     color: black;
     font-weight: 700;
-    padding: 0 15px;
 }
 
 .navbar .menu {
     position: absolute;
     height: 40px;
     width: 40px;
-    right: 50px;
+    right: 40px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;

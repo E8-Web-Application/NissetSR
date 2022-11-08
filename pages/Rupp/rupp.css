@@ -6,10 +6,6 @@
     --font-family-kantumruy: Kantumruy, sans-serif;
 }
 
-.container {
-    padding: 0 50px;
-}
-
 .container .title h3 {
     font-family: var(--font-family-preahvihear);
     color: var(--color-orange);
@@ -20,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 }
 
 .container .title .back-btn {
@@ -123,24 +120,29 @@
     .school-image-cover {
         height: 400px;
     }
-    .container {
-        padding: 0 20px;
-    }
 }
 
 @media (max-width:500px) {
     .school-image {
-        width: 350px;
+        width: 300px;
         height: 200px;
     }
     .school-image-cover {
-        width: 350px;
+        width: 300px;
         height: 250px;
+    }
+    .container .title {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
 
 /* School description start */
+
+.school-description {
+    padding: 0 45px;
+}
 
 .school-description p {
     font-family: var(--font-family-kantumruy);

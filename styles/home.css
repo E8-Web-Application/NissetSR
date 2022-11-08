@@ -55,8 +55,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
     margin-top: 50px;
+    padding: 0 50px;
 }
 
 .university-container h1 {
