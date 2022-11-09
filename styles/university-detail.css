@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kantumruy:wght@300;400;700&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kantumruy:wght@300;400;700&family=Kdam+Thmor+Pro&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -102,11 +102,12 @@ body {
     object-fit: cover;
 }
 
-.image-detail:hover {
+
+/* .image-detail:hover {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transform: scale(1.1);
-    transition: all .4s;
-}
+    transition: all 0.4s;
+} */
 
 .contain-paragraph {
     width: 100%;
@@ -173,3 +174,44 @@ body {
 
 
 /* end content */
+
+
+/* Responsive */
+
+@media screen and (max-width: 1000px) {
+    .banner {
+        height: 350px;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .images-detail {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0 30px;
+    }
+    .navbar .menu {
+        right: 30px;
+    }
+    .container {
+        padding: 0 35px;
+    }
+    .banner {
+        height: 350px;
+    }
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .images-detail {
+        width: 100%;
+    }
+    .detail-titles {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 10px;
+    }
+}

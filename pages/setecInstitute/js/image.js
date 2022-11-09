@@ -1,35 +1,36 @@
 const image = [
   {
     id: 1,
-    imageUrl: './image/se1.jpeg'
+    imageUrl: "./image/se1.jpeg",
   },
   {
     id: 2,
-    imageUrl: './image/s2.jpeg',
+    imageUrl: "./image/s2.jpeg",
   },
   {
     id: 3,
-    imageUrl: './image/s3.jpeg'
+    imageUrl: "./image/s3.jpeg",
   },
   {
     id: 4,
-    imageUrl: './image/s4.jpeg'
+    imageUrl: "./image/s4.jpeg",
   },
   {
     id: 5,
-    imageUrl: './image/s5.jpeg'
+    imageUrl: "./image/s5.jpeg",
   },
   {
     id: 6,
-    imageUrl: './image/s6.jpeg'
+    imageUrl: "./image/s6.jpeg",
   },
 ];
 
-const imageScript = document.getElementById('image-script');
+const imageScript = document.getElementById("image-script");
 imageScript.innerHTML = `
-                      ${image?.map((image) => {
-                        return `<div class="box ${image?.id}">
+                      ${image
+                        ?.map((image) => {
+                          return `<div class="box ${image?.id} image">
                                   <img src="${image?.imageUrl}" class="image-detail" alt="">
-                                </div>`
-                      }).join(" ")}`;
-
+                                </div>`;
+                        })
+                        .join(" ")}`;
