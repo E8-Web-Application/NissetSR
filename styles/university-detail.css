@@ -136,13 +136,16 @@ body {
 }
 
 .scholarship {
-    width: 95%;
+    width: 100%;
     height: auto;
     background-color: var(--bg);
-    margin: auto;
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
+}
+
+.scholarship p {
+    font-family: var(--font-family-secondary);
 }
 
 .head-bachelors-list {
