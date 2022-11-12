@@ -49,23 +49,30 @@ const preview = document.querySelector(".image-preview-container");
 const previewImage = document.querySelector(".image-preview-container img");
 const images = document.querySelectorAll(".image img");
 const btns = document.querySelectorAll(".btn");
-images.forEach((image) => {
+const imageDownload = document.querySelector(".buttons a");
+let rotate = 0;
+images?.forEach((image) => {
   image.addEventListener("click", () => {
     overlay.classList.add("active");
     preview.classList.add("active");
     previewImage.src = image.src;
-    console.log(image.src);
+    imageDownload.href = image.src;
   });
 
-  overlay.addEventListener("click", () => {
+  overlay?.addEventListener("click", () => {
     overlay.classList.remove("active");
     preview.classList.remove("active");
+    rotate = 0;
   });
 });
 
-btns.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    overlay.classList.remove("active");
-    preview.classList.remove("active");
-  });
+btns[0].addEventListener("click", () => {
+  rotate = 0;
+  overlay.classList.remove("active");
+  preview.classList.remove("active");
+});
+
+btns[1].addEventListener("click", () => {
+  rotate = rotate + 90;
+  previewImage.style.transform = `rotate(${rotate}deg)`;
 });
