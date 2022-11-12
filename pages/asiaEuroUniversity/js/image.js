@@ -1,7 +1,7 @@
 const image = [
   {
     id: 1,
-    imageUrl: "./images/img.jpg",
+    imageUrl: "./images/img7.jpg",
   },
   {
     id: 2,
@@ -9,7 +9,7 @@ const image = [
   },
   {
     id: 3,
-    imageUrl: "./images/img2.jpg",
+    imageUrl: "./images/img3.jpg",
   },
   {
     id: 4,
@@ -21,7 +21,7 @@ const image = [
   },
   {
     id: 6,
-    imageUrl: "./images/img5.jpg",
+    imageUrl: "./images/img9.jpg",
   },
 ];
 
