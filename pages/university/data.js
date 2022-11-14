@@ -7,15 +7,15 @@ const university = [
   },
   {
     id: 2,
-    image: "../SetecInstitute/image/s1.jpeg",
+    image: "../setecInstitute/image/s1.jpeg",
     name: "SETEC INSTITUTE",
-    link: "../SetecInstitute/index.html",
+    link: "../setecInstitute/index.html",
   },
   {
     id: 3,
-    image: "../AIB/image/banner-building.jpg",
+    image: "../aib/image/banner-building.jpg",
     name: "ACLEDA INSTITUTE OF BUSINESS (AIB)",
-    link: "../AIB/index.html",
+    link: "../aib/index.html",
   },
   {
     id: 4,
@@ -25,9 +25,9 @@ const university = [
   },
   {
     id: 5,
-    image: "../VandaInstitute/image/p6.jpg",
+    image: "../vandaInstitute/image/p6.jpg",
     name: "Vanda Institute",
-    link: "../VandaInstitute/index.html",
+    link: "../vandaInstitute/index.html",
   },
   {
     id: 6,
