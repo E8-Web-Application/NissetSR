@@ -13,7 +13,7 @@ const about = [
     id: 2,
     img: "./images/seyha.jpg",
     name: "Vorn Seyha",
-    position: "Full Stack Developer",
+    position: "Software Engineer",
     linkFace: "https://web.facebook.com/seyha.vornn/",
     linkGit: "https://github.com/SeyhaVORN",
     linkIG: "https://www.linkedin.com/in/seyha-vorn/",
