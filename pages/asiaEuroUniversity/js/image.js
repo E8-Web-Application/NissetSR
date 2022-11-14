@@ -1,11 +1,11 @@
 const image = [
   {
     id: 1,
-    imageUrl: "./images/img7.jpg",
+    imageUrl: "./images/mylogo.jpg",
   },
   {
     id: 2,
-    imageUrl: "./images/img1.jpg",
+    imageUrl: "./images/finis.jpg",
   },
   {
     id: 3,
@@ -17,7 +17,7 @@ const image = [
   },
   {
     id: 5,
-    imageUrl: "./images/img4.jpg",
+    imageUrl: "./images/graduate.jpg",
   },
   {
     id: 6,

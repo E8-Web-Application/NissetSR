@@ -4,13 +4,14 @@ const information = [
     id: 1,
     text: 'Official Web:',
     list:'',
-    link: 'https://num.edu.kh/web/web/num/Pages?id=253',
+    link: 'http://www.aeu.edu.kh/',
   },
   {
     id: 3,
     text: 'Official FB page',
     list:'',
-    link: 'សាកលវិទ្យាល័យជាតិគ្រប់គ្រង',
+    link: 'https://www.facebook.com/groups/185232318884952/?ref=share',
+    link: 'www.facebook.com/aeucambodia'
   },
   {
     id: 4,
@@ -21,12 +22,12 @@ const information = [
   {
     id: 5,
     text: 'Num Address:',
-    list:'St.96 Christoher Howes, Khan Daun Penh Phnom Penh, Cambodia 12202',
+    list:'#826, kammpuch Krum Blvd Teuk Laak I, Khan Toul Kok, Phnom Penh-Kingdom of Cambodia, Postal Code: 12156',
     link: '',
   },
   {
     id: 6,
-    list:'+855 23 428 120',
+    list:'+855 023998124',
     text: 'Tel: ',
     link: '',
   },
