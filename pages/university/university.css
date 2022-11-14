@@ -77,7 +77,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     overflow: hidden;
-    transition: .5S ease-in-out;
+    transition: 0.2s ease-in-out;
     box-sizing: border-box;
     transform: translate(-100px, -50px);
     opacity: 0;
@@ -111,7 +111,7 @@
 
 .card:hover {
     box-shadow: 0 0 10px #ed56248f;
-    scale: 1.02;
+    scale: 1.03;
 }
 
 .text-container {
@@ -122,9 +122,9 @@
     height: 43%;
     text-align: center;
     position: relative;
-    border-radius: 20px 20px 10px 10px;
+    border-radius: 15px 15px 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    /* border-top: 3px solid #f68863bf; */
+    border-top: 3px solid #f68863bf;
 }
 
 .text-container .icon {
