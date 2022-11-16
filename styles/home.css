@@ -84,6 +84,7 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
+
     .mySwiper {
         height: 650px;
     }
@@ -94,8 +95,16 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
+
     .mySwiper {
         height: 580px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .university {
+        width: 1385px;
+        margin: auto;
     }
 }
 
@@ -225,6 +234,7 @@
         width: 400px;
         height: 350px;
     }
+
     .university-container {
         padding: 0;
     }
@@ -234,6 +244,7 @@
     .university-container h1 {
         font-size: 18px;
     }
+
     .card {
         width: 300px;
     }

@@ -43,6 +43,13 @@
     place-items: center;
 }
 
+@media screen and (min-width: 1500px) {
+    .university {
+        width: 1385px;
+        margin: auto;
+    }
+}
+
 @media (max-width: 1300px) {
     .university {
         grid-template-columns: repeat(3, 1fr);
@@ -181,6 +188,7 @@
         width: 400px;
         height: 350px;
     }
+
     .university-container {
         padding: 0;
     }
@@ -190,6 +198,7 @@
     .university-container h1 {
         font-size: 18px;
     }
+
     .card {
         width: 300px;
     }
