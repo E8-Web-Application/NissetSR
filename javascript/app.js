@@ -27,7 +27,7 @@ function scrollAnimation() {
   const cards = document.querySelectorAll(".card");
   let i = 0;
   cards.forEach((card) => {
-    i = i + 0.12;
+    i = i + 0.05;
     card.style.transitionDelay = i + "s";
     const cardPosition = card.getBoundingClientRect().top;
     const screenPosition = window.innerHeight / 1.6;
