@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../../Images/student.png" type="image/x-icon" />
+  <title>University</title>
+  <link rel="stylesheet" href="../../styles/style.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="navbar">
+    <a href="index.html" class="nisset-logo">
+        <h1>Nisset <span class="sr">S.R</span></h1>
+    </a>
+    <ul class="navbar-link-block">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="pages/university/university.html">University</a>
+        </li>
+        <li>
+            <a href="pages/contact/index.html" style="color:#ED5724">Contact Us</a>
+        </li>
+        <li>
+            <a href="pages/about/about.html">About Us</a>
+        </li>
+    </ul>
+    <div class="menu">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+    </div>
+
+</nav>
+<div class="navbar-mobile">
+    <ul class="navbar-block-link-block">
+        <li>
+            <a style="color:#ED5724" href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="pages/university/university.html">University</a>
+        </li>
+        <li>
+            <a href="pages/about/about.html">About Us</a>
+        </li>
+        <li>
+            <a href="pages/contact/index.html" style="color:#ED5724">Contact Us</a>
+        </li>
+    </ul>
+</div>
+  <!-- navbar end -->
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <main class="main">
+      <div class="container-input">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your last email..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Cambodia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <div class="container-map">
+        <div id="map" class="google-map"></div>
+      </div>
+    </main>
+  </div>
+  <!-- Card Member End -->
+  <!-- Start Footer -->
+  <div class="footer-container">
+    <p>Connect <span class="with">With</span> Us</p>
+    <div class="social-block">
+      <div class="social-image">
+        <img width="40" src="../../Images/facebook.png" alt="" />
+      </div>
+      <div class="social-image">
+        <img width="40" src="../../Images/instagram.png" alt="" />
+      </div>
+      <div class="social-image">
+        <img width="40" src="../../Images/twitter-sign.png" alt="" />
+      </div>
+      <div class="social-image">
+        <img width="40" src="../../Images/linkedin.png" alt="" />
+      </div>
+      <div class="social-image">
+        <img width="40" src="../../Images/github-sign.png" alt="" />
+      </div>
+    </div>
+    <p>Nisset <span class="sr">S.R</span> © 2022 All Rights Reserved.</p>
+  </div>
+  <!-- End Footer -->
+  <!-- JavaScript -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu2s27gFRTrZB_g-FY6Q3sfGspp8gMRlw&libraries=places&callback=initMap"
+  async defer></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
