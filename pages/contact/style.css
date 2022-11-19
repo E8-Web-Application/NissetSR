@@ -75,6 +75,15 @@ body {
     margin-top: 40px;
 }
 
+input {
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: #eb6234 1px solid;
+}
+
 
 /* Mape */
 

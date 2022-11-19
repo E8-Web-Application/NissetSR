@@ -84,7 +84,7 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
     overflow: hidden;
-    transition: 0.2s ease-in-out;
+    transition: 0.5s ease-in-out;
     box-sizing: border-box;
     transform: translate(-100px, -50px);
     opacity: 0;
@@ -92,7 +92,7 @@
 
 .card-scroll-active {
     transform: translate(0, 0);
-    transition: 1S;
+    transition: 1s;
     opacity: 1;
 }
 
@@ -188,7 +188,6 @@
         width: 400px;
         height: 350px;
     }
-
     .university-container {
         padding: 0;
     }
@@ -198,7 +197,6 @@
     .university-container h1 {
         font-size: 18px;
     }
-
     .card {
         width: 100%;
     }
