@@ -39,6 +39,8 @@ body {
 }
 
 .container .main {
+	width: 100%;
+	height: 100%;
 	display: grid;
 	gap: 2rem;
 	grid-template-columns: repeat(2, 1fr);
@@ -157,7 +159,7 @@ table tr td {
 
 .container-social {
 	display: flex;
-	gap: 1rem;
+	gap: 0.7rem;
 }
 .container-social .icon {
 	width: 36px;
@@ -186,10 +188,78 @@ table tr td {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	.container .main {
 		display: grid;
-		gap: 2rem;
+		grid-template-columns: repeat(1, 2fr);
+	}
+	.container {
+		width: 100%;
+		margin: auto;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container .main {
 		grid-template-columns: repeat(1, 1fr);
+	}
+	.container {
+		width: 100%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 500px) {
+	.container {
+		margin-top: 30px;
+		height: 100%;
+		width: 100%;
+		padding: 0 50px;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.container .main {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.container {
+		margin-top: 30px;
+		height: 100%;
+		width: 100%;
+		padding: 0 30px;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.container-map {
+		padding: 20px;
+	}
+
+	.container .main {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.container-input h4 {
+		font-size: 20px;
+	}
+	.container-social {
+		display: flex;
+		gap: 0.4rem;
+	}
+	table {
+		margin-left: 0;
+	}
+	.follow-us h3 {
+		font-size: 20px;
+	}
+	.overlay1 h4 {
+		font-size: 20px;
+	}
+	.overlay1 .para {
+		font-size: 14px;
 	}
 }
