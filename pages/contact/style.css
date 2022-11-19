@@ -28,6 +28,7 @@ body {
 	padding: 0 50px;
 	margin: auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .container h2 {
@@ -46,11 +47,22 @@ body {
 /* Container Input */
 .container-input {
 	width: 100%;
+	font-size: 24px;
+}
+
+.container-input h4 {
+	font-size: 26px;
+	margin-bottom: 20px;
+	color: rgb(0, 0, 0);
+	margin-top: 40px;
 }
 
 /* Mape */
 .container-map {
 	width: 100%;
+	height: 100%;
+	background-color: var(--bg);
+	padding: 40px;
 }
 
 .google-map {
@@ -58,11 +70,34 @@ body {
 	height: 100%;
 }
 
+.overlay1 h4 {
+	font-size: 26px;
+}
+
+.overlay1 .para {
+	font-weight: 200;
+	color: #1b0f0b;
+}
+
+form label {
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+}
+.container-name {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 2rem;
+}
+.container-name .fname, .container-name .lname {
+	width: 100%;
+}
 input[type='text'],
 select,
 textarea {
 	width: 100%;
-	padding: 12px;
+	padding: 9px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -74,6 +109,7 @@ textarea {
 input[type='submit'] {
 	background-color: #ed5724;
 	color: white;
+	width: 100%;
 	padding: 10px 16px;
 	border: none;
 	border-radius: 4px;
@@ -81,13 +117,72 @@ input[type='submit'] {
 }
 
 input[type='submit']:hover {
-	background-color: #e46338;
+	background-color: #eb6234;
+}
+table {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+table tr {
+	width: 200px;
+	height: 55px;
+	padding-left: 20px;
+}
+table tr .icon {
+	width: 50px;
+}
+table tr .icon i {
+	width: 36px;
+	height: 36px;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+	align-items: center;
+	background-color: #eb6234;
+	color: #fff;
+	border-radius: 50%;
+}
+table tr td {
+	color: #1b0f0b;
+}
+.container-bottom {
+	width: 100%;
+	height: 350px;
+}
+.follow-us h3 {
+	font-size: 26px;
+	margin-top: 50px;
+	margin-bottom: 20px;
 }
 
+.container-social {
+	display: flex;
+	gap: 1rem;
+}
+.container-social .icon {
+	width: 36px;
+	height: 36px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ed5724;
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+}
+.container-social .icon:hover {
+	scale: 1.1;
+}
 @media screen and (min-width: 1500px) {
 	.container {
 		width: 1385px;
 		margin: auto;
+	}
+	.container h2 {
+		margin-bottom: 50px;
+		margin-top: 50px;
 	}
 }
 
