@@ -118,6 +118,15 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .school-image-cover {
+        padding: 0 35px;
+    }
+    .image-container {
+        padding: 0 35px;
+    }
+    .school-description {
+        padding: 0 35px !important;
+    }
 }
 
 
