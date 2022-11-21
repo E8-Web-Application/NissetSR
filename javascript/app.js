@@ -1,3 +1,4 @@
+// Toggle button animation start
 const menu = document.querySelector(".menu");
 const line1 = document.querySelector(".line1");
 const line2 = document.querySelector(".line2");
@@ -23,6 +24,9 @@ window.addEventListener("resize", () => {
   navbarMobile.classList.remove("navbar-mobile-active");
 });
 
+// Toggle button animation end
+
+// Scroll animation for cards start
 function scrollAnimation() {
   const cards = document.querySelectorAll(".card");
   let i = 0;
@@ -42,6 +46,8 @@ function scrollAnimation() {
 window.addEventListener("scroll", () => {
   scrollAnimation();
 });
+
+// Scroll animation for cards end
 
 // image preview
 const overlay = document.querySelector(".overlay");
